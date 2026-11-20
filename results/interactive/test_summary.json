@@ -1,0 +1,1000 @@
+{
+  "split": "test",
+  "cases": 288,
+  "families": [
+    "accessible_sign_installation",
+    "dependent_care_travel",
+    "independent_machine_inspection",
+    "outage_generator_hire",
+    "solvent_return",
+    "warranty_repair_intake"
+  ],
+  "training_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "overall": {
+    "after": {
+      "episodes": 1440,
+      "return_sum": 2760.0,
+      "joint_correct": 1440,
+      "actions_correct": 1440,
+      "evidence_exact": 1440,
+      "lookups": 2400,
+      "approvals": 480,
+      "false_approvals": 0,
+      "pairs": 720,
+      "pairs_both_correct": 720,
+      "dispositions": {
+        "approve": 480,
+        "reject": 480,
+        "review": 480
+      },
+      "mean_return": 1.9166666666666667,
+      "joint_accuracy": 1.0,
+      "action_accuracy": 1.0,
+      "mean_lookups": 1.6666666666666667,
+      "approval_coverage": 0.3333333333333333,
+      "false_approval_risk": 0.0,
+      "pair_accuracy": 1.0
+    },
+    "always_review": {
+      "episodes": 288,
+      "return_sum": -144.0,
+      "joint_correct": 0,
+      "actions_correct": 96,
+      "evidence_exact": 0,
+      "lookups": 0,
+      "approvals": 0,
+      "false_approvals": 0,
+      "pairs": 144,
+      "pairs_both_correct": 0,
+      "dispositions": {
+        "review": 288
+      },
+      "mean_return": -0.5,
+      "joint_accuracy": 0.0,
+      "action_accuracy": 0.3333333333333333,
+      "mean_lookups": 0.0,
+      "approval_coverage": 0.0,
+      "false_approval_risk": null,
+      "pair_accuracy": 0.0
+    },
+    "before": {
+      "episodes": 1440,
+      "return_sum": -1016.4,
+      "joint_correct": 0,
+      "actions_correct": 480,
+      "evidence_exact": 48,
+      "lookups": 2088,
+      "approvals": 96,
+      "false_approvals": 96,
+      "pairs": 720,
+      "pairs_both_correct": 24,
+      "dispositions": {
+        "approve": 96,
+        "reject": 228,
+        "review": 1116
+      },
+      "mean_return": -0.7058333333333333,
+      "joint_accuracy": 0.0,
+      "action_accuracy": 0.3333333333333333,
+      "mean_lookups": 1.45,
+      "approval_coverage": 0.06666666666666667,
+      "false_approval_risk": 1.0,
+      "pair_accuracy": 0.03333333333333333
+    },
+    "public_rule": {
+      "episodes": 288,
+      "return_sum": 552.0,
+      "joint_correct": 288,
+      "actions_correct": 288,
+      "evidence_exact": 288,
+      "lookups": 480,
+      "approvals": 96,
+      "false_approvals": 0,
+      "pairs": 144,
+      "pairs_both_correct": 144,
+      "dispositions": {
+        "approve": 96,
+        "reject": 96,
+        "review": 96
+      },
+      "mean_return": 1.9166666666666667,
+      "joint_accuracy": 1.0,
+      "action_accuracy": 1.0,
+      "mean_lookups": 1.6666666666666667,
+      "approval_coverage": 0.3333333333333333,
+      "false_approval_risk": 0.0,
+      "pair_accuracy": 1.0
+    }
+  },
+  "by_seed": {
+    "11": {
+      "before": {
+        "episodes": 288,
+        "return_sum": -109.2,
+        "joint_correct": 0,
+        "actions_correct": 144,
+        "evidence_exact": 0,
+        "lookups": 744,
+        "approvals": 0,
+        "false_approvals": 0,
+        "pairs": 144,
+        "pairs_both_correct": 24,
+        "dispositions": {
+          "reject": 228,
+          "review": 60
+        },
+        "mean_return": -0.37916666666666665,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.5,
+        "mean_lookups": 2.5833333333333335,
+        "approval_coverage": 0.0,
+        "false_approval_risk": null,
+        "pair_accuracy": 0.16666666666666666
+      },
+      "after": {
+        "episodes": 288,
+        "return_sum": 552.0,
+        "joint_correct": 288,
+        "actions_correct": 288,
+        "evidence_exact": 288,
+        "lookups": 480,
+        "approvals": 96,
+        "false_approvals": 0,
+        "pairs": 144,
+        "pairs_both_correct": 144,
+        "dispositions": {
+          "approve": 96,
+          "reject": 96,
+          "review": 96
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      }
+    },
+    "23": {
+      "before": {
+        "episodes": 288,
+        "return_sum": -446.4,
+        "joint_correct": 0,
+        "actions_correct": 48,
+        "evidence_exact": 48,
+        "lookups": 768,
+        "approvals": 96,
+        "false_approvals": 96,
+        "pairs": 144,
+        "pairs_both_correct": 0,
+        "dispositions": {
+          "approve": 96,
+          "review": 192
+        },
+        "mean_return": -1.5499999999999998,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.16666666666666666,
+        "mean_lookups": 2.6666666666666665,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 1.0,
+        "pair_accuracy": 0.0
+      },
+      "after": {
+        "episodes": 288,
+        "return_sum": 552.0,
+        "joint_correct": 288,
+        "actions_correct": 288,
+        "evidence_exact": 288,
+        "lookups": 480,
+        "approvals": 96,
+        "false_approvals": 0,
+        "pairs": 144,
+        "pairs_both_correct": 144,
+        "dispositions": {
+          "approve": 96,
+          "reject": 96,
+          "review": 96
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      }
+    },
+    "37": {
+      "before": {
+        "episodes": 288,
+        "return_sum": -144.0,
+        "joint_correct": 0,
+        "actions_correct": 96,
+        "evidence_exact": 0,
+        "lookups": 0,
+        "approvals": 0,
+        "false_approvals": 0,
+        "pairs": 144,
+        "pairs_both_correct": 0,
+        "dispositions": {
+          "review": 288
+        },
+        "mean_return": -0.5,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 0.0,
+        "approval_coverage": 0.0,
+        "false_approval_risk": null,
+        "pair_accuracy": 0.0
+      },
+      "after": {
+        "episodes": 288,
+        "return_sum": 552.0,
+        "joint_correct": 288,
+        "actions_correct": 288,
+        "evidence_exact": 288,
+        "lookups": 480,
+        "approvals": 96,
+        "false_approvals": 0,
+        "pairs": 144,
+        "pairs_both_correct": 144,
+        "dispositions": {
+          "approve": 96,
+          "reject": 96,
+          "review": 96
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      }
+    },
+    "53": {
+      "before": {
+        "episodes": 288,
+        "return_sum": -144.0,
+        "joint_correct": 0,
+        "actions_correct": 96,
+        "evidence_exact": 0,
+        "lookups": 0,
+        "approvals": 0,
+        "false_approvals": 0,
+        "pairs": 144,
+        "pairs_both_correct": 0,
+        "dispositions": {
+          "review": 288
+        },
+        "mean_return": -0.5,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 0.0,
+        "approval_coverage": 0.0,
+        "false_approval_risk": null,
+        "pair_accuracy": 0.0
+      },
+      "after": {
+        "episodes": 288,
+        "return_sum": 552.0,
+        "joint_correct": 288,
+        "actions_correct": 288,
+        "evidence_exact": 288,
+        "lookups": 480,
+        "approvals": 96,
+        "false_approvals": 0,
+        "pairs": 144,
+        "pairs_both_correct": 144,
+        "dispositions": {
+          "approve": 96,
+          "reject": 96,
+          "review": 96
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      }
+    },
+    "71": {
+      "before": {
+        "episodes": 288,
+        "return_sum": -172.8,
+        "joint_correct": 0,
+        "actions_correct": 96,
+        "evidence_exact": 0,
+        "lookups": 576,
+        "approvals": 0,
+        "false_approvals": 0,
+        "pairs": 144,
+        "pairs_both_correct": 0,
+        "dispositions": {
+          "review": 288
+        },
+        "mean_return": -0.6000000000000001,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 2.0,
+        "approval_coverage": 0.0,
+        "false_approval_risk": null,
+        "pair_accuracy": 0.0
+      },
+      "after": {
+        "episodes": 288,
+        "return_sum": 552.0,
+        "joint_correct": 288,
+        "actions_correct": 288,
+        "evidence_exact": 288,
+        "lookups": 480,
+        "approvals": 96,
+        "false_approvals": 0,
+        "pairs": 144,
+        "pairs_both_correct": 144,
+        "dispositions": {
+          "approve": 96,
+          "reject": 96,
+          "review": 96
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      }
+    }
+  },
+  "by_family": {
+    "accessible_sign_installation": {
+      "after": {
+        "episodes": 240,
+        "return_sum": 460.0,
+        "joint_correct": 240,
+        "actions_correct": 240,
+        "evidence_exact": 240,
+        "lookups": 400,
+        "approvals": 80,
+        "false_approvals": 0,
+        "pairs": 120,
+        "pairs_both_correct": 120,
+        "dispositions": {
+          "approve": 80,
+          "reject": 80,
+          "review": 80
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      },
+      "always_review": {
+        "episodes": 48,
+        "return_sum": -24.0,
+        "joint_correct": 0,
+        "actions_correct": 16,
+        "evidence_exact": 0,
+        "lookups": 0,
+        "approvals": 0,
+        "false_approvals": 0,
+        "pairs": 24,
+        "pairs_both_correct": 0,
+        "dispositions": {
+          "review": 48
+        },
+        "mean_return": -0.5,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 0.0,
+        "approval_coverage": 0.0,
+        "false_approval_risk": null,
+        "pair_accuracy": 0.0
+      },
+      "before": {
+        "episodes": 240,
+        "return_sum": -169.6,
+        "joint_correct": 0,
+        "actions_correct": 80,
+        "evidence_exact": 8,
+        "lookups": 352,
+        "approvals": 16,
+        "false_approvals": 16,
+        "pairs": 120,
+        "pairs_both_correct": 4,
+        "dispositions": {
+          "approve": 16,
+          "reject": 40,
+          "review": 184
+        },
+        "mean_return": -0.7066666666666667,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 1.4666666666666666,
+        "approval_coverage": 0.06666666666666667,
+        "false_approval_risk": 1.0,
+        "pair_accuracy": 0.03333333333333333
+      },
+      "public_rule": {
+        "episodes": 48,
+        "return_sum": 92.0,
+        "joint_correct": 48,
+        "actions_correct": 48,
+        "evidence_exact": 48,
+        "lookups": 80,
+        "approvals": 16,
+        "false_approvals": 0,
+        "pairs": 24,
+        "pairs_both_correct": 24,
+        "dispositions": {
+          "approve": 16,
+          "reject": 16,
+          "review": 16
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      }
+    },
+    "dependent_care_travel": {
+      "after": {
+        "episodes": 240,
+        "return_sum": 460.0,
+        "joint_correct": 240,
+        "actions_correct": 240,
+        "evidence_exact": 240,
+        "lookups": 400,
+        "approvals": 80,
+        "false_approvals": 0,
+        "pairs": 120,
+        "pairs_both_correct": 120,
+        "dispositions": {
+          "approve": 80,
+          "reject": 80,
+          "review": 80
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      },
+      "always_review": {
+        "episodes": 48,
+        "return_sum": -24.0,
+        "joint_correct": 0,
+        "actions_correct": 16,
+        "evidence_exact": 0,
+        "lookups": 0,
+        "approvals": 0,
+        "false_approvals": 0,
+        "pairs": 24,
+        "pairs_both_correct": 0,
+        "dispositions": {
+          "review": 48
+        },
+        "mean_return": -0.5,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 0.0,
+        "approval_coverage": 0.0,
+        "false_approval_risk": null,
+        "pair_accuracy": 0.0
+      },
+      "before": {
+        "episodes": 240,
+        "return_sum": -169.4,
+        "joint_correct": 0,
+        "actions_correct": 80,
+        "evidence_exact": 8,
+        "lookups": 348,
+        "approvals": 16,
+        "false_approvals": 16,
+        "pairs": 120,
+        "pairs_both_correct": 4,
+        "dispositions": {
+          "approve": 16,
+          "reject": 38,
+          "review": 186
+        },
+        "mean_return": -0.7058333333333333,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 1.45,
+        "approval_coverage": 0.06666666666666667,
+        "false_approval_risk": 1.0,
+        "pair_accuracy": 0.03333333333333333
+      },
+      "public_rule": {
+        "episodes": 48,
+        "return_sum": 92.0,
+        "joint_correct": 48,
+        "actions_correct": 48,
+        "evidence_exact": 48,
+        "lookups": 80,
+        "approvals": 16,
+        "false_approvals": 0,
+        "pairs": 24,
+        "pairs_both_correct": 24,
+        "dispositions": {
+          "approve": 16,
+          "reject": 16,
+          "review": 16
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      }
+    },
+    "independent_machine_inspection": {
+      "after": {
+        "episodes": 240,
+        "return_sum": 460.0,
+        "joint_correct": 240,
+        "actions_correct": 240,
+        "evidence_exact": 240,
+        "lookups": 400,
+        "approvals": 80,
+        "false_approvals": 0,
+        "pairs": 120,
+        "pairs_both_correct": 120,
+        "dispositions": {
+          "approve": 80,
+          "reject": 80,
+          "review": 80
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      },
+      "always_review": {
+        "episodes": 48,
+        "return_sum": -24.0,
+        "joint_correct": 0,
+        "actions_correct": 16,
+        "evidence_exact": 0,
+        "lookups": 0,
+        "approvals": 0,
+        "false_approvals": 0,
+        "pairs": 24,
+        "pairs_both_correct": 0,
+        "dispositions": {
+          "review": 48
+        },
+        "mean_return": -0.5,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 0.0,
+        "approval_coverage": 0.0,
+        "false_approval_risk": null,
+        "pair_accuracy": 0.0
+      },
+      "before": {
+        "episodes": 240,
+        "return_sum": -169.2,
+        "joint_correct": 0,
+        "actions_correct": 80,
+        "evidence_exact": 8,
+        "lookups": 344,
+        "approvals": 16,
+        "false_approvals": 16,
+        "pairs": 120,
+        "pairs_both_correct": 4,
+        "dispositions": {
+          "approve": 16,
+          "reject": 36,
+          "review": 188
+        },
+        "mean_return": -0.705,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 1.4333333333333333,
+        "approval_coverage": 0.06666666666666667,
+        "false_approval_risk": 1.0,
+        "pair_accuracy": 0.03333333333333333
+      },
+      "public_rule": {
+        "episodes": 48,
+        "return_sum": 92.0,
+        "joint_correct": 48,
+        "actions_correct": 48,
+        "evidence_exact": 48,
+        "lookups": 80,
+        "approvals": 16,
+        "false_approvals": 0,
+        "pairs": 24,
+        "pairs_both_correct": 24,
+        "dispositions": {
+          "approve": 16,
+          "reject": 16,
+          "review": 16
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      }
+    },
+    "outage_generator_hire": {
+      "after": {
+        "episodes": 240,
+        "return_sum": 460.0,
+        "joint_correct": 240,
+        "actions_correct": 240,
+        "evidence_exact": 240,
+        "lookups": 400,
+        "approvals": 80,
+        "false_approvals": 0,
+        "pairs": 120,
+        "pairs_both_correct": 120,
+        "dispositions": {
+          "approve": 80,
+          "reject": 80,
+          "review": 80
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      },
+      "always_review": {
+        "episodes": 48,
+        "return_sum": -24.0,
+        "joint_correct": 0,
+        "actions_correct": 16,
+        "evidence_exact": 0,
+        "lookups": 0,
+        "approvals": 0,
+        "false_approvals": 0,
+        "pairs": 24,
+        "pairs_both_correct": 0,
+        "dispositions": {
+          "review": 48
+        },
+        "mean_return": -0.5,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 0.0,
+        "approval_coverage": 0.0,
+        "false_approval_risk": null,
+        "pair_accuracy": 0.0
+      },
+      "before": {
+        "episodes": 240,
+        "return_sum": -169.6,
+        "joint_correct": 0,
+        "actions_correct": 80,
+        "evidence_exact": 8,
+        "lookups": 352,
+        "approvals": 16,
+        "false_approvals": 16,
+        "pairs": 120,
+        "pairs_both_correct": 4,
+        "dispositions": {
+          "approve": 16,
+          "reject": 40,
+          "review": 184
+        },
+        "mean_return": -0.7066666666666667,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 1.4666666666666666,
+        "approval_coverage": 0.06666666666666667,
+        "false_approval_risk": 1.0,
+        "pair_accuracy": 0.03333333333333333
+      },
+      "public_rule": {
+        "episodes": 48,
+        "return_sum": 92.0,
+        "joint_correct": 48,
+        "actions_correct": 48,
+        "evidence_exact": 48,
+        "lookups": 80,
+        "approvals": 16,
+        "false_approvals": 0,
+        "pairs": 24,
+        "pairs_both_correct": 24,
+        "dispositions": {
+          "approve": 16,
+          "reject": 16,
+          "review": 16
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      }
+    },
+    "solvent_return": {
+      "after": {
+        "episodes": 240,
+        "return_sum": 460.0,
+        "joint_correct": 240,
+        "actions_correct": 240,
+        "evidence_exact": 240,
+        "lookups": 400,
+        "approvals": 80,
+        "false_approvals": 0,
+        "pairs": 120,
+        "pairs_both_correct": 120,
+        "dispositions": {
+          "approve": 80,
+          "reject": 80,
+          "review": 80
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      },
+      "always_review": {
+        "episodes": 48,
+        "return_sum": -24.0,
+        "joint_correct": 0,
+        "actions_correct": 16,
+        "evidence_exact": 0,
+        "lookups": 0,
+        "approvals": 0,
+        "false_approvals": 0,
+        "pairs": 24,
+        "pairs_both_correct": 0,
+        "dispositions": {
+          "review": 48
+        },
+        "mean_return": -0.5,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 0.0,
+        "approval_coverage": 0.0,
+        "false_approval_risk": null,
+        "pair_accuracy": 0.0
+      },
+      "before": {
+        "episodes": 240,
+        "return_sum": -169.2,
+        "joint_correct": 0,
+        "actions_correct": 80,
+        "evidence_exact": 8,
+        "lookups": 344,
+        "approvals": 16,
+        "false_approvals": 16,
+        "pairs": 120,
+        "pairs_both_correct": 4,
+        "dispositions": {
+          "approve": 16,
+          "reject": 36,
+          "review": 188
+        },
+        "mean_return": -0.705,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 1.4333333333333333,
+        "approval_coverage": 0.06666666666666667,
+        "false_approval_risk": 1.0,
+        "pair_accuracy": 0.03333333333333333
+      },
+      "public_rule": {
+        "episodes": 48,
+        "return_sum": 92.0,
+        "joint_correct": 48,
+        "actions_correct": 48,
+        "evidence_exact": 48,
+        "lookups": 80,
+        "approvals": 16,
+        "false_approvals": 0,
+        "pairs": 24,
+        "pairs_both_correct": 24,
+        "dispositions": {
+          "approve": 16,
+          "reject": 16,
+          "review": 16
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      }
+    },
+    "warranty_repair_intake": {
+      "after": {
+        "episodes": 240,
+        "return_sum": 460.0,
+        "joint_correct": 240,
+        "actions_correct": 240,
+        "evidence_exact": 240,
+        "lookups": 400,
+        "approvals": 80,
+        "false_approvals": 0,
+        "pairs": 120,
+        "pairs_both_correct": 120,
+        "dispositions": {
+          "approve": 80,
+          "reject": 80,
+          "review": 80
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      },
+      "always_review": {
+        "episodes": 48,
+        "return_sum": -24.0,
+        "joint_correct": 0,
+        "actions_correct": 16,
+        "evidence_exact": 0,
+        "lookups": 0,
+        "approvals": 0,
+        "false_approvals": 0,
+        "pairs": 24,
+        "pairs_both_correct": 0,
+        "dispositions": {
+          "review": 48
+        },
+        "mean_return": -0.5,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 0.0,
+        "approval_coverage": 0.0,
+        "false_approval_risk": null,
+        "pair_accuracy": 0.0
+      },
+      "before": {
+        "episodes": 240,
+        "return_sum": -169.4,
+        "joint_correct": 0,
+        "actions_correct": 80,
+        "evidence_exact": 8,
+        "lookups": 348,
+        "approvals": 16,
+        "false_approvals": 16,
+        "pairs": 120,
+        "pairs_both_correct": 4,
+        "dispositions": {
+          "approve": 16,
+          "reject": 38,
+          "review": 186
+        },
+        "mean_return": -0.7058333333333333,
+        "joint_accuracy": 0.0,
+        "action_accuracy": 0.3333333333333333,
+        "mean_lookups": 1.45,
+        "approval_coverage": 0.06666666666666667,
+        "false_approval_risk": 1.0,
+        "pair_accuracy": 0.03333333333333333
+      },
+      "public_rule": {
+        "episodes": 48,
+        "return_sum": 92.0,
+        "joint_correct": 48,
+        "actions_correct": 48,
+        "evidence_exact": 48,
+        "lookups": 80,
+        "approvals": 16,
+        "false_approvals": 0,
+        "pairs": 24,
+        "pairs_both_correct": 24,
+        "dispositions": {
+          "approve": 16,
+          "reject": 16,
+          "review": 16
+        },
+        "mean_return": 1.9166666666666667,
+        "joint_accuracy": 1.0,
+        "action_accuracy": 1.0,
+        "mean_lookups": 1.6666666666666667,
+        "approval_coverage": 0.3333333333333333,
+        "false_approval_risk": 0.0,
+        "pair_accuracy": 1.0
+      }
+    }
+  },
+  "paired_uncertainty": {
+    "unit": "policy family",
+    "draws": 10000,
+    "seed": 1729,
+    "after_minus_before": {
+      "mean_return": {
+        "delta": 2.6225,
+        "ci95": [
+          2.6219444444444444,
+          2.6230555555555557
+        ],
+        "defined_draws": 10000
+      },
+      "joint_accuracy": {
+        "delta": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "defined_draws": 10000
+      },
+      "action_accuracy": {
+        "delta": 0.6666666666666667,
+        "ci95": [
+          0.6666666666666667,
+          0.6666666666666667
+        ],
+        "defined_draws": 10000
+      },
+      "mean_lookups": {
+        "delta": 0.21666666666666679,
+        "ci95": [
+          0.2055555555555557,
+          0.22777777777777786
+        ],
+        "defined_draws": 10000
+      },
+      "approval_coverage": {
+        "delta": 0.26666666666666666,
+        "ci95": [
+          0.26666666666666666,
+          0.26666666666666666
+        ],
+        "defined_draws": 10000
+      },
+      "false_approval_risk": {
+        "delta": -1.0,
+        "ci95": [
+          -1.0,
+          -1.0
+        ],
+        "defined_draws": 10000
+      },
+      "pair_accuracy": {
+        "delta": 0.9666666666666667,
+        "ci95": [
+          0.9666666666666667,
+          0.9666666666666667
+        ],
+        "defined_draws": 10000
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "batch_size": 64,
+  "updates": 384,
+  "discount": 1,
+  "learning_rate": 0.025,
+  "entropy_weight": 0.025,
+  "algorithm": "Monte Carlo REINFORCE with return-to-go",
+  "sampling": "uniform train cases with replacement; stochastic legal actions",
+  "init": "independent Gaussian logits, standard deviation 0.05",
+  "optimizer": "Adam ascent, beta1=0.9, beta2=0.999, epsilon=1e-8",
+  "baseline": "per-observed-state exponential average of earlier batch returns, step 0.1",
+  "selection": "last completed update; no early stopping or checkpoint selection",
+  "n_train_cases": 1536
+}

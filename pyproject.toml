@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "expense-policy-benchmark"
-version = "1.0.0"
+version = "2.0.0"
 description = "A paired evaluation of expense-policy decisions, supporting evidence, and human-review routing."
 requires-python = ">=3.11"
 dependencies = []
@@ -12,12 +12,16 @@ dependencies = []
 [project.optional-dependencies]
 test = ["pytest>=8,<10"]
 plot = ["matplotlib>=3.8,<4"]
+gym = ["gymnasium>=1.1,<2"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.setuptools.data-files]
 "share/expense-policy-benchmark" = ["data/*.jsonl"]
+"share/expense-policy-benchmark/interactive/train" = ["data/interactive/train/*.jsonl"]
+"share/expense-policy-benchmark/interactive/dev" = ["data/interactive/dev/*.jsonl"]
+"share/expense-policy-benchmark/interactive/test" = ["data/interactive/test/*.jsonl"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]

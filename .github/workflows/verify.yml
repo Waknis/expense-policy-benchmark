@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      - run: python -m pip install '.[test]'
+      - run: python -m pip install '.[test,gym]'
       - run: python -m pytest -q
       - name: Reproduce the frozen routing decision and held-out results
         run: |
@@ -24,3 +24,17 @@ jobs:
           python reports/check_decisions.py
           python results/blind_audit/grade.py > "$RUNNER_TEMP/agreement.json"
           diff results/blind_audit/agreement.json "$RUNNER_TEMP/agreement.json"
+      - name: Verify and replay the frozen RL policies
+        run: |
+          python reports/verify_interactive_lock.py
+          python -m expensebench.interactive_train replay --split test --output "$RUNNER_TEMP/test.jsonl"
+          cmp results/interactive/rollouts/test.jsonl "$RUNNER_TEMP/test.jsonl"
+          python -m expensebench.interactive_report --split test --rollouts "$RUNNER_TEMP/test.jsonl" --out "$RUNNER_TEMP/test_summary.json"
+          cmp results/interactive/test_summary.json "$RUNNER_TEMP/test_summary.json"
+      - name: Retrain from scratch and compare greedy decisions
+        run: |
+          python -m expensebench.interactive_train train --output-dir "$RUNNER_TEMP/training"
+          python -m expensebench.interactive_train replay --split dev --models "$RUNNER_TEMP/training" --output "$RUNNER_TEMP/retrained-dev.jsonl"
+          cmp results/interactive/rollouts/dev.jsonl "$RUNNER_TEMP/retrained-dev.jsonl"
+          python -m expensebench.interactive_train replay --split test --models "$RUNNER_TEMP/training" --output "$RUNNER_TEMP/retrained-test.jsonl"
+          cmp results/interactive/rollouts/test.jsonl "$RUNNER_TEMP/retrained-test.jsonl"
