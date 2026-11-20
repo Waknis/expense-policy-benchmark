@@ -1,0 +1,308 @@
+{
+  "split": "dev",
+  "case_count": 48,
+  "families": [
+    "course_enrollment",
+    "hosted_meal_allowance",
+    "local_transport",
+    "rail_contract"
+  ],
+  "winner": "always_review",
+  "priority": [
+    "citation_gate",
+    "llm_evidence",
+    "receipt_rule",
+    "llm_policy",
+    "always_review"
+  ],
+  "input_sha256": "9bbdabae7c53ca8913ae99ead2b6305c1fd88f6cf511416bcbd38a54c953438a",
+  "prediction_sha256": {
+    "always_review": "f461a2ec926544efc8e41e73da26722c3b593cf8f54a39fa9554a756674237a8",
+    "receipt_rule": "6be8cc90a0a86c8cba1835de4a49cf31ddb82aaabcdd74170c382cd37c66c321",
+    "llm_policy": "45eaf7bc7a3c56b9a643ca981ebeb1348478b7073301708a4bbc2a66e633d31f",
+    "llm_evidence": "468ea766a1f67e76120e471ea8f51d25d4c256dd37e13773ca60f9298a06e6c5",
+    "citation_gate": "be19e7336425ec0de6ebd928665b395740dc77063ad9e3812b025b4d9f8f0914"
+  },
+  "systems": {
+    "always_review": {
+      "n_cases": 48,
+      "actions_correct": 16,
+      "action_counts": {
+        "approve": 0,
+        "review": 48,
+        "reject": 0,
+        "invalid": 0,
+        "missing": 0
+      },
+      "confusion": {
+        "approve": {
+          "approve": 0,
+          "review": 16,
+          "reject": 0,
+          "invalid": 0,
+          "missing": 0
+        },
+        "review": {
+          "approve": 0,
+          "review": 16,
+          "reject": 0,
+          "invalid": 0,
+          "missing": 0
+        },
+        "reject": {
+          "approve": 0,
+          "review": 16,
+          "reject": 0,
+          "invalid": 0,
+          "missing": 0
+        }
+      },
+      "approvals": 0,
+      "false_approvals": 0,
+      "nonapprovable_cases": 32,
+      "false_approval_rate_among_nonapprovable": 0.0,
+      "review_rate": 1.0,
+      "fallback_review_rate": 1.0,
+      "evidence_exact_count": 0,
+      "evidence_exact_accuracy": 0.0,
+      "evidence_sufficient_count": 0,
+      "evidence_sufficient_accuracy": 0.0,
+      "unknown_evidence_cases": 0,
+      "joint_correct": 0,
+      "n_pairs": 24,
+      "pairs_both_correct": 0,
+      "n_action_change_pairs": 24,
+      "predicted_changes": 0,
+      "pair_change_rate": 0.0,
+      "action_accuracy": 0.3333333333333333,
+      "approval_coverage": 0.0,
+      "false_approval_risk": null,
+      "joint_accuracy": 0.0,
+      "pair_accuracy": 0.0
+    },
+    "receipt_rule": {
+      "n_cases": 48,
+      "actions_correct": 16,
+      "action_counts": {
+        "approve": 12,
+        "review": 36,
+        "reject": 0,
+        "invalid": 0,
+        "missing": 0
+      },
+      "confusion": {
+        "approve": {
+          "approve": 3,
+          "review": 13,
+          "reject": 0,
+          "invalid": 0,
+          "missing": 0
+        },
+        "review": {
+          "approve": 3,
+          "review": 13,
+          "reject": 0,
+          "invalid": 0,
+          "missing": 0
+        },
+        "reject": {
+          "approve": 6,
+          "review": 10,
+          "reject": 0,
+          "invalid": 0,
+          "missing": 0
+        }
+      },
+      "approvals": 12,
+      "false_approvals": 9,
+      "nonapprovable_cases": 32,
+      "false_approval_rate_among_nonapprovable": 0.28125,
+      "review_rate": 0.75,
+      "fallback_review_rate": 0.75,
+      "evidence_exact_count": 0,
+      "evidence_exact_accuracy": 0.0,
+      "evidence_sufficient_count": 0,
+      "evidence_sufficient_accuracy": 0.0,
+      "unknown_evidence_cases": 0,
+      "joint_correct": 0,
+      "n_pairs": 24,
+      "pairs_both_correct": 0,
+      "n_action_change_pairs": 24,
+      "predicted_changes": 0,
+      "pair_change_rate": 0.0,
+      "action_accuracy": 0.3333333333333333,
+      "approval_coverage": 0.25,
+      "false_approval_risk": 0.75,
+      "joint_accuracy": 0.0,
+      "pair_accuracy": 0.0
+    },
+    "llm_policy": {
+      "n_cases": 48,
+      "actions_correct": 16,
+      "action_counts": {
+        "approve": 0,
+        "review": 0,
+        "reject": 48,
+        "invalid": 0,
+        "missing": 0
+      },
+      "confusion": {
+        "approve": {
+          "approve": 0,
+          "review": 0,
+          "reject": 16,
+          "invalid": 0,
+          "missing": 0
+        },
+        "review": {
+          "approve": 0,
+          "review": 0,
+          "reject": 16,
+          "invalid": 0,
+          "missing": 0
+        },
+        "reject": {
+          "approve": 0,
+          "review": 0,
+          "reject": 16,
+          "invalid": 0,
+          "missing": 0
+        }
+      },
+      "approvals": 0,
+      "false_approvals": 0,
+      "nonapprovable_cases": 32,
+      "false_approval_rate_among_nonapprovable": 0.0,
+      "review_rate": 0.0,
+      "fallback_review_rate": 0.0,
+      "evidence_exact_count": 0,
+      "evidence_exact_accuracy": 0.0,
+      "evidence_sufficient_count": 0,
+      "evidence_sufficient_accuracy": 0.0,
+      "unknown_evidence_cases": 0,
+      "joint_correct": 0,
+      "n_pairs": 24,
+      "pairs_both_correct": 0,
+      "n_action_change_pairs": 24,
+      "predicted_changes": 0,
+      "pair_change_rate": 0.0,
+      "action_accuracy": 0.3333333333333333,
+      "approval_coverage": 0.0,
+      "false_approval_risk": null,
+      "joint_accuracy": 0.0,
+      "pair_accuracy": 0.0
+    },
+    "llm_evidence": {
+      "n_cases": 48,
+      "actions_correct": 21,
+      "action_counts": {
+        "approve": 7,
+        "review": 0,
+        "reject": 41,
+        "invalid": 0,
+        "missing": 0
+      },
+      "confusion": {
+        "approve": {
+          "approve": 5,
+          "review": 0,
+          "reject": 11,
+          "invalid": 0,
+          "missing": 0
+        },
+        "review": {
+          "approve": 2,
+          "review": 0,
+          "reject": 14,
+          "invalid": 0,
+          "missing": 0
+        },
+        "reject": {
+          "approve": 0,
+          "review": 0,
+          "reject": 16,
+          "invalid": 0,
+          "missing": 0
+        }
+      },
+      "approvals": 7,
+      "false_approvals": 2,
+      "nonapprovable_cases": 32,
+      "false_approval_rate_among_nonapprovable": 0.0625,
+      "review_rate": 0.0,
+      "fallback_review_rate": 0.0,
+      "evidence_exact_count": 2,
+      "evidence_exact_accuracy": 0.041666666666666664,
+      "evidence_sufficient_count": 2,
+      "evidence_sufficient_accuracy": 0.041666666666666664,
+      "unknown_evidence_cases": 1,
+      "joint_correct": 2,
+      "n_pairs": 24,
+      "pairs_both_correct": 4,
+      "n_action_change_pairs": 24,
+      "predicted_changes": 5,
+      "pair_change_rate": 0.20833333333333334,
+      "action_accuracy": 0.4375,
+      "approval_coverage": 0.14583333333333334,
+      "false_approval_risk": 0.2857142857142857,
+      "joint_accuracy": 0.041666666666666664,
+      "pair_accuracy": 0.16666666666666666
+    },
+    "citation_gate": {
+      "n_cases": 48,
+      "actions_correct": 18,
+      "action_counts": {
+        "approve": 0,
+        "review": 7,
+        "reject": 41,
+        "invalid": 0,
+        "missing": 0
+      },
+      "confusion": {
+        "approve": {
+          "approve": 0,
+          "review": 5,
+          "reject": 11,
+          "invalid": 0,
+          "missing": 0
+        },
+        "review": {
+          "approve": 0,
+          "review": 2,
+          "reject": 14,
+          "invalid": 0,
+          "missing": 0
+        },
+        "reject": {
+          "approve": 0,
+          "review": 0,
+          "reject": 16,
+          "invalid": 0,
+          "missing": 0
+        }
+      },
+      "approvals": 0,
+      "false_approvals": 0,
+      "nonapprovable_cases": 32,
+      "false_approval_rate_among_nonapprovable": 0.0,
+      "review_rate": 0.14583333333333334,
+      "fallback_review_rate": 0.14583333333333334,
+      "evidence_exact_count": 2,
+      "evidence_exact_accuracy": 0.041666666666666664,
+      "evidence_sufficient_count": 2,
+      "evidence_sufficient_accuracy": 0.041666666666666664,
+      "unknown_evidence_cases": 1,
+      "joint_correct": 2,
+      "n_pairs": 24,
+      "pairs_both_correct": 1,
+      "n_action_change_pairs": 24,
+      "predicted_changes": 5,
+      "pair_change_rate": 0.20833333333333334,
+      "action_accuracy": 0.375,
+      "approval_coverage": 0.0,
+      "false_approval_risk": null,
+      "joint_accuracy": 0.041666666666666664,
+      "pair_accuracy": 0.041666666666666664
+    }
+  }
+}
