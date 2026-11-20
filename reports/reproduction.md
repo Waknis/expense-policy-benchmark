@@ -55,3 +55,32 @@ python -m expensebench.scoring --split test \
 The grader counts missing and malformed decisions as failures and rejects duplicate case IDs. It reports whether cited IDs include all annotated evidence without invented IDs, and whether the citation set exactly matches the minimal reference. It never calls an LLM judge.
 
 Regenerate the plot with `python -m pip install -e '.[plot]'` and `python reports/plot_results.py`.
+
+## Rerun local model inference
+
+The published run uses the Q4_K_M GGUF of Qwen2.5-7B-Instruct. Download the two model shards from the pinned revision, keeping them together. The upstream model license applies to the weights. The repository contains the model's responses and request hashes; download the weights separately. [Pinned model files](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF/tree/bb5d59e06d9551d752d08b292a50eb208b07ab1f)
+
+```bash
+hf download Qwen/Qwen2.5-7B-Instruct-GGUF \
+  --revision bb5d59e06d9551d752d08b292a50eb208b07ab1f \
+  --include 'qwen2.5-7b-instruct-q4_k_m-*.gguf' --local-dir .cache/qwen
+```
+
+With a CUDA build of llama.cpp at the revision in the [run manifest](../results/llm_run.json), start the server in one terminal.
+
+```bash
+llama-server --model .cache/qwen/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf \
+  --alias qwen2.5-7b-instruct-q4_k_m --host 127.0.0.1 --port 18081 \
+  --ctx-size 32768 --parallel 8 --n-gpu-layers 99 --flash-attn on --jinja --seed 42 --no-webui
+```
+
+In another terminal, keep fresh predictions separate from the published run. Freeze the route between splits.
+
+```bash
+python -m expensebench.llm --split dev --output-dir .cache/new/predictions
+python -m expensebench.experiment select --predictions .cache/new/predictions --lock .cache/new/dev.json
+python -m expensebench.llm --split test --output-dir .cache/new/predictions
+python -m expensebench.experiment report --predictions .cache/new/predictions --lock .cache/new/dev.json --out .cache/new/report
+```
+
+The original runner used eight parallel requests, a fixed seed, and greedy decoding. New completions can differ with GPU, batching or engine changes. Replaying the archived completions reproduces the exact reported decisions.

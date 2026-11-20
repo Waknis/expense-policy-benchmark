@@ -237,7 +237,7 @@ def main(argv=None):
     )
     report["split"] = args.split
     args.out.parent.mkdir(parents=True, exist_ok=True)
-    args.out.write_text(json.dumps(report, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+    args.out.write_text(json.dumps(report, indent=2, allow_nan=False) + "\n", encoding="utf-8", newline="\n")
 
 
 if __name__ == "__main__":

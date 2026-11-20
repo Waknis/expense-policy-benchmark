@@ -12,7 +12,8 @@ from .scoring import compare_systems, score_system
 
 def write_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False) + "\n",
+                    encoding="utf-8", newline="\n")
 
 
 def digest(data):
@@ -95,6 +96,7 @@ def heldout_comparison(source, lock, out, replicates):
     (out / "heldout_decisions.jsonl").write_text(
         "".join(json.dumps(row, ensure_ascii=False, allow_nan=False) + "\n" for row in timeline),
         encoding="utf-8",
+        newline="\n",
     )
     return metrics
 
