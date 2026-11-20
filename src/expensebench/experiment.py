@@ -77,10 +77,12 @@ def heldout_comparison(source, lock, out, replicates):
     if development_selection(source) != selected:
         raise ValueError("Development inputs, predictions or selection differ from the frozen decision.")
     cases, labels, evidence, predictions, packets = assemble("test", source)
+    predictions["llm_finding"] = read_predictions(source / "llm_finding.jsonl", cases, "test")
     metrics = compare_systems(cases, labels, predictions, evidence, seed=1729, replicates=replicates)
     metrics["selected_on_development"] = selected["winner"]
     metrics["split"] = "test"
     metrics["input_sha256"] = digest({"cases": cases, "packets": packets, "labels": labels})
+    metrics["prediction_sha256"] = {m: digest(rows) for m, rows in predictions.items()}
     write_json(out / "heldout.json", metrics)
     # A row for every decision, including the receipt heuristic and gate, for easy independent audit.
     timeline = []
