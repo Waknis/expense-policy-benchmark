@@ -1,0 +1,569 @@
+{
+  "purpose": "Post-run schema and template smoke test. These six explicit-instruction probes were never used for routing, model selection or benchmark scores.",
+  "model": "qwen2.5-7b-instruct-q4_k_m",
+  "template_check": {
+    "llm_evidence": {
+      "case_id": "C-09fa0ae2a",
+      "rendered_prompt": "<|im_start|>system\nYou review corporate expense claims under the supplied written policy. Decide whether to approve the claim, reject it, or send it for human review. Use only the information shown. Apply the policy's instructions for exceptions and missing or conflicting information. Do not assume that undisclosed records exist or that they establish a violation. Amounts named amount_cents are in cents. Return a JSON object with action and evidence_ids. Select the applicable policy ID and the IDs of the specific records that support your decision. Use each ID exactly as supplied.<|im_end|>\n<|im_start|>user\n{\"evidence\": [{\"description\": \"Employee's stated purpose\", \"id\": \"D-4EB03\", \"kind\": \"business_purpose\", \"value\": \"Travel during field assignment\"}, {\"description\": \"Format recorded by document intake\", \"id\": \"D-A9D1A\", \"kind\": \"receipt\", \"value\": \"unreadable\"}, {\"description\": \"Dispatcher-verified origin and destination\", \"id\": \"D-C5925\", \"kind\": \"dispatch_route\", \"value\": \"worksite to customer\"}], \"expense\": {\"amount_cents\": 3100, \"category\": \"ground_transport\", \"currency\": \"USD\", \"id\": \"D-E1EAE\", \"merchant\": \"Rivertown Taxi\", \"spent_at\": \"2025-07-17T15:00:00Z\"}, \"policy\": {\"effective_from\": \"2025-01-01\", \"id\": \"P-965BE\", \"text\": \"Local transport. The dispatched trip classification is authoritative. Approve a journey between a company worksite and a customer site in either direction. Reject a home-to-regular-office commute in either direction. Route unresolved destinations or any other classification to review. A memo is insufficient to determine the route.\"}}<|im_end|>\n<|im_start|>assistant\n",
+      "full_system_text_present": true,
+      "system_role_marker_present": true,
+      "user_text_present": true
+    },
+    "llm_finding": {
+      "case_id": "C-09fa0ae2a",
+      "rendered_prompt": "<|im_start|>system\nYou review corporate expense claims under the supplied written policy. Decide whether to approve the claim, reject it, or send it for human review. Use only the information shown. Apply the policy's instructions for exceptions and missing or conflicting information. Do not assume that undisclosed records exist or that they establish a violation. Amounts named amount_cents are in cents. Return a JSON object with action and evidence_ids. Select the applicable policy ID and the IDs of the specific records that support your decision. Use each ID exactly as supplied. Add a finding as the first JSON field. State one concise, checkable fact that matters to this claim, such as a computed amount, date relationship, or missing record. Then provide the action and evidence_ids.<|im_end|>\n<|im_start|>user\n{\"evidence\": [{\"description\": \"Employee's stated purpose\", \"id\": \"D-4EB03\", \"kind\": \"business_purpose\", \"value\": \"Travel during field assignment\"}, {\"description\": \"Format recorded by document intake\", \"id\": \"D-A9D1A\", \"kind\": \"receipt\", \"value\": \"unreadable\"}, {\"description\": \"Dispatcher-verified origin and destination\", \"id\": \"D-C5925\", \"kind\": \"dispatch_route\", \"value\": \"worksite to customer\"}], \"expense\": {\"amount_cents\": 3100, \"category\": \"ground_transport\", \"currency\": \"USD\", \"id\": \"D-E1EAE\", \"merchant\": \"Rivertown Taxi\", \"spent_at\": \"2025-07-17T15:00:00Z\"}, \"policy\": {\"effective_from\": \"2025-01-01\", \"id\": \"P-965BE\", \"text\": \"Local transport. The dispatched trip classification is authoritative. Approve a journey between a company worksite and a customer site in either direction. Reject a home-to-regular-office commute in either direction. Route unresolved destinations or any other classification to review. A memo is insufficient to determine the route.\"}}<|im_end|>\n<|im_start|>assistant\n",
+      "full_system_text_present": true,
+      "system_role_marker_present": true,
+      "user_text_present": true
+    }
+  },
+  "probes": [
+    {
+      "method": "llm_evidence",
+      "expected_action": "approve",
+      "actual_action": "approve",
+      "matched": true,
+      "request": {
+        "model": "qwen2.5-7b-instruct-q4_k_m",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You review corporate expense claims under the supplied written policy. Decide whether to approve the claim, reject it, or send it for human review. Use only the information shown. Apply the policy's instructions for exceptions and missing or conflicting information. Do not assume that undisclosed records exist or that they establish a violation. Amounts named amount_cents are in cents. Return a JSON object with action and evidence_ids. Select the applicable policy ID and the IDs of the specific records that support your decision. Use each ID exactly as supplied."
+          },
+          {
+            "role": "user",
+            "content": "{\"evidence\": [], \"expense\": {\"amount_cents\": 100, \"category\": \"probe\", \"currency\": \"USD\", \"id\": \"EXP-CONTROL\", \"merchant\": \"Example\", \"spent_at\": \"2026-02-01\"}, \"policy\": {\"effective_from\": \"2026-01-01\", \"id\": \"POL-CONTROL\", \"text\": \"This is an explicit output-format check. Select exactly the action 'approve' for this claim and cite the policy and expense IDs.\"}}"
+          }
+        ],
+        "temperature": 0,
+        "seed": 42,
+        "max_tokens": 240,
+        "stream": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "decision",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "action": {
+                  "type": "string",
+                  "enum": [
+                    "approve",
+                    "review",
+                    "reject"
+                  ]
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "action",
+                "evidence_ids"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"action\": \"approve\",\n  \"evidence_ids\": [\"POL-CONTROL\", \"EXP-CONTROL\"]\n}"
+            }
+          }
+        ],
+        "created": 1795138200,
+        "model": "qwen2.5-7b-instruct-q4_k_m",
+        "system_fingerprint": "b1-272700b",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 30,
+          "prompt_tokens": 236,
+          "total_tokens": 266,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-Q6P1Q1DbHKCN8jfHceOtjiuDGZdsCopl",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 236,
+          "prompt_ms": 360.302,
+          "prompt_per_token_ms": 1.5267033898305085,
+          "prompt_per_second": 655.00607823437,
+          "predicted_n": 30,
+          "predicted_ms": 368.105,
+          "predicted_per_token_ms": 12.270166666666666,
+          "predicted_per_second": 81.49848548647803
+        }
+      }
+    },
+    {
+      "method": "llm_evidence",
+      "expected_action": "review",
+      "actual_action": "review",
+      "matched": true,
+      "request": {
+        "model": "qwen2.5-7b-instruct-q4_k_m",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You review corporate expense claims under the supplied written policy. Decide whether to approve the claim, reject it, or send it for human review. Use only the information shown. Apply the policy's instructions for exceptions and missing or conflicting information. Do not assume that undisclosed records exist or that they establish a violation. Amounts named amount_cents are in cents. Return a JSON object with action and evidence_ids. Select the applicable policy ID and the IDs of the specific records that support your decision. Use each ID exactly as supplied."
+          },
+          {
+            "role": "user",
+            "content": "{\"evidence\": [], \"expense\": {\"amount_cents\": 100, \"category\": \"probe\", \"currency\": \"USD\", \"id\": \"EXP-CONTROL\", \"merchant\": \"Example\", \"spent_at\": \"2026-02-01\"}, \"policy\": {\"effective_from\": \"2026-01-01\", \"id\": \"POL-CONTROL\", \"text\": \"This is an explicit output-format check. Select exactly the action 'review' for this claim and cite the policy and expense IDs.\"}}"
+          }
+        ],
+        "temperature": 0,
+        "seed": 42,
+        "max_tokens": 240,
+        "stream": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "decision",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "action": {
+                  "type": "string",
+                  "enum": [
+                    "approve",
+                    "review",
+                    "reject"
+                  ]
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "action",
+                "evidence_ids"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"action\": \"review\",\n  \"evidence_ids\": [\"POL-CONTROL\", \"EXP-CONTROL\"]\n}"
+            }
+          }
+        ],
+        "created": 1795138201,
+        "model": "qwen2.5-7b-instruct-q4_k_m",
+        "system_fingerprint": "b1-272700b",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 26,
+          "prompt_tokens": 236,
+          "total_tokens": 262,
+          "prompt_tokens_details": {
+            "cached_tokens": 217
+          }
+        },
+        "id": "chatcmpl-VTMNSHToesPMOHDbBNuDis7EpLpglRcw",
+        "timings": {
+          "cache_n": 217,
+          "prompt_n": 19,
+          "prompt_ms": 21.353,
+          "prompt_per_token_ms": 1.123842105263158,
+          "prompt_per_second": 889.804711281787,
+          "predicted_n": 26,
+          "predicted_ms": 306.532,
+          "predicted_per_token_ms": 11.789692307692308,
+          "predicted_per_second": 84.81985567575327
+        }
+      }
+    },
+    {
+      "method": "llm_evidence",
+      "expected_action": "reject",
+      "actual_action": "reject",
+      "matched": true,
+      "request": {
+        "model": "qwen2.5-7b-instruct-q4_k_m",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You review corporate expense claims under the supplied written policy. Decide whether to approve the claim, reject it, or send it for human review. Use only the information shown. Apply the policy's instructions for exceptions and missing or conflicting information. Do not assume that undisclosed records exist or that they establish a violation. Amounts named amount_cents are in cents. Return a JSON object with action and evidence_ids. Select the applicable policy ID and the IDs of the specific records that support your decision. Use each ID exactly as supplied."
+          },
+          {
+            "role": "user",
+            "content": "{\"evidence\": [], \"expense\": {\"amount_cents\": 100, \"category\": \"probe\", \"currency\": \"USD\", \"id\": \"EXP-CONTROL\", \"merchant\": \"Example\", \"spent_at\": \"2026-02-01\"}, \"policy\": {\"effective_from\": \"2026-01-01\", \"id\": \"POL-CONTROL\", \"text\": \"This is an explicit output-format check. Select exactly the action 'reject' for this claim and cite the policy and expense IDs.\"}}"
+          }
+        ],
+        "temperature": 0,
+        "seed": 42,
+        "max_tokens": 240,
+        "stream": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "decision",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "action": {
+                  "type": "string",
+                  "enum": [
+                    "approve",
+                    "review",
+                    "reject"
+                  ]
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "action",
+                "evidence_ids"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"action\": \"reject\",\n  \"evidence_ids\": [\"POL-CONTROL\", \"EXP-CONTROL\"]\n}"
+            }
+          }
+        ],
+        "created": 1795138201,
+        "model": "qwen2.5-7b-instruct-q4_k_m",
+        "system_fingerprint": "b1-272700b",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 26,
+          "prompt_tokens": 236,
+          "total_tokens": 262,
+          "prompt_tokens_details": {
+            "cached_tokens": 217
+          }
+        },
+        "id": "chatcmpl-9EWcKhMbuzoNXGgsiyJMCCtQsrNDaRZm",
+        "timings": {
+          "cache_n": 217,
+          "prompt_n": 19,
+          "prompt_ms": 19.737,
+          "prompt_per_token_ms": 1.0387894736842105,
+          "prompt_per_second": 962.6589653949436,
+          "predicted_n": 26,
+          "predicted_ms": 305.375,
+          "predicted_per_token_ms": 11.745192307692308,
+          "predicted_per_second": 85.14121981170692
+        }
+      }
+    },
+    {
+      "method": "llm_finding",
+      "expected_action": "approve",
+      "actual_action": "approve",
+      "matched": true,
+      "request": {
+        "model": "qwen2.5-7b-instruct-q4_k_m",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You review corporate expense claims under the supplied written policy. Decide whether to approve the claim, reject it, or send it for human review. Use only the information shown. Apply the policy's instructions for exceptions and missing or conflicting information. Do not assume that undisclosed records exist or that they establish a violation. Amounts named amount_cents are in cents. Return a JSON object with action and evidence_ids. Select the applicable policy ID and the IDs of the specific records that support your decision. Use each ID exactly as supplied. Add a finding as the first JSON field. State one concise, checkable fact that matters to this claim, such as a computed amount, date relationship, or missing record. Then provide the action and evidence_ids."
+          },
+          {
+            "role": "user",
+            "content": "{\"evidence\": [], \"expense\": {\"amount_cents\": 100, \"category\": \"probe\", \"currency\": \"USD\", \"id\": \"EXP-CONTROL\", \"merchant\": \"Example\", \"spent_at\": \"2026-02-01\"}, \"policy\": {\"effective_from\": \"2026-01-01\", \"id\": \"POL-CONTROL\", \"text\": \"This is an explicit output-format check. Select exactly the action 'approve' for this claim and cite the policy and expense IDs.\"}}"
+          }
+        ],
+        "temperature": 0,
+        "seed": 42,
+        "max_tokens": 240,
+        "stream": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "decision",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "finding": {
+                  "type": "string"
+                },
+                "action": {
+                  "type": "string",
+                  "enum": [
+                    "approve",
+                    "review",
+                    "reject"
+                  ]
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "finding",
+                "action",
+                "evidence_ids"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"finding\": \"The action is explicitly 'approve' as per the policy text.\",\n  \"action\": \"approve\",\n  \"evidence_ids\": [\"POL-CONTROL\", \"EXP-CONTROL\"]\n}"
+            }
+          }
+        ],
+        "created": 1795138202,
+        "model": "qwen2.5-7b-instruct-q4_k_m",
+        "system_fingerprint": "b1-272700b",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 44,
+          "prompt_tokens": 279,
+          "total_tokens": 323,
+          "prompt_tokens_details": {
+            "cached_tokens": 108
+          }
+        },
+        "id": "chatcmpl-ipeMcizSWXuwzJghvh0X6EsyLbvnyq8n",
+        "timings": {
+          "cache_n": 108,
+          "prompt_n": 171,
+          "prompt_ms": 56.483,
+          "prompt_per_token_ms": 0.33030994152046783,
+          "prompt_per_second": 3027.4595896110336,
+          "predicted_n": 44,
+          "predicted_ms": 519.864,
+          "predicted_per_token_ms": 11.81509090909091,
+          "predicted_per_second": 84.63752058230614
+        }
+      }
+    },
+    {
+      "method": "llm_finding",
+      "expected_action": "review",
+      "actual_action": "review",
+      "matched": true,
+      "request": {
+        "model": "qwen2.5-7b-instruct-q4_k_m",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You review corporate expense claims under the supplied written policy. Decide whether to approve the claim, reject it, or send it for human review. Use only the information shown. Apply the policy's instructions for exceptions and missing or conflicting information. Do not assume that undisclosed records exist or that they establish a violation. Amounts named amount_cents are in cents. Return a JSON object with action and evidence_ids. Select the applicable policy ID and the IDs of the specific records that support your decision. Use each ID exactly as supplied. Add a finding as the first JSON field. State one concise, checkable fact that matters to this claim, such as a computed amount, date relationship, or missing record. Then provide the action and evidence_ids."
+          },
+          {
+            "role": "user",
+            "content": "{\"evidence\": [], \"expense\": {\"amount_cents\": 100, \"category\": \"probe\", \"currency\": \"USD\", \"id\": \"EXP-CONTROL\", \"merchant\": \"Example\", \"spent_at\": \"2026-02-01\"}, \"policy\": {\"effective_from\": \"2026-01-01\", \"id\": \"POL-CONTROL\", \"text\": \"This is an explicit output-format check. Select exactly the action 'review' for this claim and cite the policy and expense IDs.\"}}"
+          }
+        ],
+        "temperature": 0,
+        "seed": 42,
+        "max_tokens": 240,
+        "stream": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "decision",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "finding": {
+                  "type": "string"
+                },
+                "action": {
+                  "type": "string",
+                  "enum": [
+                    "approve",
+                    "review",
+                    "reject"
+                  ]
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "finding",
+                "action",
+                "evidence_ids"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"finding\": \"The action is explicitly required to be 'review'.\",\n  \"action\": \"review\",\n  \"evidence_ids\": [\"POL-CONTROL\", \"EXP-CONTROL\"]\n}"
+            }
+          }
+        ],
+        "created": 1795138202,
+        "model": "qwen2.5-7b-instruct-q4_k_m",
+        "system_fingerprint": "b1-272700b",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 42,
+          "prompt_tokens": 279,
+          "total_tokens": 321,
+          "prompt_tokens_details": {
+            "cached_tokens": 260
+          }
+        },
+        "id": "chatcmpl-Ig2Al9dEd9vwuxdJdni09lWC35EVb62O",
+        "timings": {
+          "cache_n": 260,
+          "prompt_n": 19,
+          "prompt_ms": 19.6,
+          "prompt_per_token_ms": 1.0315789473684212,
+          "prompt_per_second": 969.3877551020407,
+          "predicted_n": 42,
+          "predicted_ms": 497.127,
+          "predicted_per_token_ms": 11.836357142857143,
+          "predicted_per_second": 84.48545341532446
+        }
+      }
+    },
+    {
+      "method": "llm_finding",
+      "expected_action": "reject",
+      "actual_action": "reject",
+      "matched": true,
+      "request": {
+        "model": "qwen2.5-7b-instruct-q4_k_m",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You review corporate expense claims under the supplied written policy. Decide whether to approve the claim, reject it, or send it for human review. Use only the information shown. Apply the policy's instructions for exceptions and missing or conflicting information. Do not assume that undisclosed records exist or that they establish a violation. Amounts named amount_cents are in cents. Return a JSON object with action and evidence_ids. Select the applicable policy ID and the IDs of the specific records that support your decision. Use each ID exactly as supplied. Add a finding as the first JSON field. State one concise, checkable fact that matters to this claim, such as a computed amount, date relationship, or missing record. Then provide the action and evidence_ids."
+          },
+          {
+            "role": "user",
+            "content": "{\"evidence\": [], \"expense\": {\"amount_cents\": 100, \"category\": \"probe\", \"currency\": \"USD\", \"id\": \"EXP-CONTROL\", \"merchant\": \"Example\", \"spent_at\": \"2026-02-01\"}, \"policy\": {\"effective_from\": \"2026-01-01\", \"id\": \"POL-CONTROL\", \"text\": \"This is an explicit output-format check. Select exactly the action 'reject' for this claim and cite the policy and expense IDs.\"}}"
+          }
+        ],
+        "temperature": 0,
+        "seed": 42,
+        "max_tokens": 240,
+        "stream": false,
+        "response_format": {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "decision",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "finding": {
+                  "type": "string"
+                },
+                "action": {
+                  "type": "string",
+                  "enum": [
+                    "approve",
+                    "review",
+                    "reject"
+                  ]
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "finding",
+                "action",
+                "evidence_ids"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"finding\": \"The action must be 'reject' as per the policy text.\",\n  \"action\": \"reject\",\n  \"evidence_ids\": [\"POL-CONTROL\", \"EXP-CONTROL\"]\n}"
+            }
+          }
+        ],
+        "created": 1795138203,
+        "model": "qwen2.5-7b-instruct-q4_k_m",
+        "system_fingerprint": "b1-272700b",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 44,
+          "prompt_tokens": 279,
+          "total_tokens": 323,
+          "prompt_tokens_details": {
+            "cached_tokens": 260
+          }
+        },
+        "id": "chatcmpl-9RWVUB7lHNY2dar7mZe8oeOQlcefHdWE",
+        "timings": {
+          "cache_n": 260,
+          "prompt_n": 19,
+          "prompt_ms": 19.932,
+          "prompt_per_token_ms": 1.0490526315789472,
+          "prompt_per_second": 953.2410194661851,
+          "predicted_n": 44,
+          "predicted_ms": 518.789,
+          "predicted_per_token_ms": 11.79065909090909,
+          "predicted_per_second": 84.81290081324006
+        }
+      }
+    }
+  ],
+  "all_actions_matched": true
+}

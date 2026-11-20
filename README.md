@@ -4,6 +4,10 @@ When can an expense reviewer safely hand an approval to a model? This benchmark 
 
 The project is independent portfolio research inspired by Ramp's public discussion of disagreement and escalation in expense review. All policies, transactions and labels are synthetic. [Ramp's financial benchmarks](https://builders.ramp.com/post/financial-benchmarks)
 
+**The benchmark selected human approval for every claim.** On 72 held-out claims, Qwen with the supporting records proposed 11 approvals, five of them incorrect. Asking for a written finding produced 23 approvals, 11 incorrect. In one duplicate-payment case the model correctly identified a matching receipt and a settled prior payment, then approved the claim again. [Results and failure analysis](reports/results.md) · [Per-case decisions](results/heldout_decisions.jsonl)
+
+![Three confusion matrices show that Qwen never chose the review action under the tested settings.](reports/decisions.png)
+
 One development pair uses the same $150 course invoice, dated July 14, for a course starting July 16. In case `C-8019e2393`, the registrar confirmed enrollment on July 15, so the policy says to approve. In `C-c121eeaaf`, that one date moves to July 18 and the correct action becomes reject. The receipt alone cannot distinguish them.
 
 ## Experiment

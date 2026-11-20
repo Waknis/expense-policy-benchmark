@@ -1,42 +1,50 @@
-"""Plot paired-case successes from the saved held-out report."""
+"""Render the held-out decision counts from the public score report."""
 
 import json
 from pathlib import Path
-import textwrap
 
 from matplotlib import pyplot as plt
-from matplotlib.ticker import MaxNLocator
+from matplotlib.colors import LinearSegmentedColormap
 
 ROOT = Path(__file__).resolve().parents[1]
 METHODS = [
-    ("llm_policy", "Policy only", "#91a0aa"),
-    ("llm_evidence", "With records", "#216b73"),
-    ("llm_finding", "With records + finding", "#a74b2a"),
+    ("llm_policy", "Policy only"),
+    ("llm_evidence", "Policy + records"),
+    ("llm_finding", "Policy + records\n+ a written finding"),
 ]
+ACTIONS = ["approve", "review", "reject"]
 
 
 def main():
     report = json.loads((ROOT / "results/heldout.json").read_text(encoding="utf-8"))
-    families = sorted(report["families"])
-    fig, ax = plt.subplots(figsize=(9.0, 5.7), dpi=150)
-    max_pairs = max(report["families"][f]["llm_evidence"]["n_pairs"] for f in families)
-    for offset, (key, label, color) in zip((-.23, 0, .23), METHODS):
-        x = [report["families"][f][key]["pairs_both_correct"] for f in families]
-        y = [i + offset for i in range(len(families))]
-        ax.scatter(x, y, s=59, color=color, label=label, zorder=4)
-    ax.set_yticks(range(len(families)), [textwrap.fill(f.replace("_", " ").capitalize(), 25) for f in families])
-    ax.set_ylim(len(families) - .5, -.6)
-    ax.set_xlim(-.35, max_pairs + .3)
-    ax.xaxis.set_major_locator(MaxNLocator(integer=True))
-    ax.set_xlabel("Pairs where both decisions were correct", labelpad=10)
-    ax.grid(axis="x", color="#e3e8e8", linewidth=.8)
-    ax.spines[["top", "right", "left"]].set_visible(False)
-    ax.tick_params(axis="y", length=0, pad=8)
-    ax.legend(loc="upper left", bbox_to_anchor=(0, 1.13), ncol=3, frameon=False, fontsize=9)
-    fig.suptitle("Can the model change its decision when one fact changes?",
-                 x=.03, ha="left", y=.97, fontsize=16, fontweight="bold")
-    fig.subplots_adjust(left=.26, right=.97, top=.81, bottom=.14)
-    fig.savefig(ROOT / "reports/paired-decisions.png", facecolor="white")
+    systems = report["systems"]
+    n = systems["llm_policy"]["n_cases"]
+    outcomes = ACTIONS + [k for k in ("invalid", "missing")
+                          if any(systems[m]["action_counts"][k] for m, _ in METHODS)]
+    matrices = [
+        [[systems[method]["confusion"][ref][out] for out in outcomes] for ref in ACTIONS]
+        for method, _ in METHODS
+    ]
+    ceiling = max(max(row) for matrix in matrices for row in matrix)
+    cmap = LinearSegmentedColormap.from_list("counts", ["#eff5f4", "#467f87", "#084651"])
+    fig, axes = plt.subplots(1, 3, figsize=(10, 3.8), dpi=160)
+    for ax, (_, label), matrix in zip(axes, METHODS, matrices):
+        ax.imshow(matrix, cmap=cmap, vmin=0, vmax=ceiling)
+        ax.set_title(label, fontsize=12, fontweight="bold", pad=12)
+        ax.set_xticks(range(len(outcomes)), [s.title() for s in outcomes], fontsize=9)
+        ax.set_yticks(range(len(ACTIONS)), [s.title() for s in ACTIONS], fontsize=9)
+        ax.tick_params(length=0, pad=5)
+        ax.spines[:].set_visible(False)
+        for i, row in enumerate(matrix):
+            for j, count in enumerate(row):
+                ax.text(j, i, str(count), ha="center", va="center", fontsize=14,
+                        color="white" if count > ceiling * .46 else "#12383d")
+    axes[0].set_ylabel("Reference action", fontsize=10)
+    fig.suptitle(f"How Qwen classified {n} held-out expenses", x=.065, y=.98,
+                 ha="left", fontsize=16, fontweight="bold")
+    fig.supxlabel("Model decision", fontsize=11, y=.055)
+    fig.subplots_adjust(left=.10, right=.98, top=.73, bottom=.20, wspace=.37)
+    fig.savefig(ROOT / "reports/decisions.png", facecolor="white")
     plt.close(fig)
 
 
