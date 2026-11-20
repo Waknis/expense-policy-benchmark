@@ -21,3 +21,6 @@ jobs:
           python -m expensebench.experiment report --out "$RUNNER_TEMP/reproduced"
           diff results/heldout.json "$RUNNER_TEMP/reproduced/heldout.json"
           diff results/heldout_decisions.jsonl "$RUNNER_TEMP/reproduced/heldout_decisions.jsonl"
+          python reports/check_decisions.py
+          python results/blind_audit/grade.py > "$RUNNER_TEMP/agreement.json"
+          diff results/blind_audit/agreement.json "$RUNNER_TEMP/agreement.json"

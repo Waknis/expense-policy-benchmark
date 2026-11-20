@@ -13,6 +13,8 @@ python -m expensebench.experiment report --lock .cache/replay/dev.json --out .ca
 
 On Windows, activate the environment with `.venv\Scripts\Activate.ps1`. GitHub Actions installs the wheel and compares the reconstructed development lock, held-out metrics, and per-case decisions against the committed files. The replay tests also reconstruct each request digest from its case packet and parse its raw model response back into a decision.
 
+Run `python reports/check_decisions.py` to cross-check the counts through a separate implementation. The SQLite query reads the per-case decisions, groups them by method and matched pair, and checks approvals, false approvals, correct decisions, and fully correct pairs against the Python grader. It prints the verified counts as CSV.
+
 ## Inspect a case
 
 ```python
