@@ -16,6 +16,9 @@ plot = ["matplotlib>=3.8,<4"]
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools.data-files]
+"share/expense-policy-benchmark" = ["data/*.jsonl"]
+
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]

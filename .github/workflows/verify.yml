@@ -1,0 +1,23 @@
+name: Verify benchmark
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: python -m pip install '.[test]'
+      - run: python -m pytest -q
+      - name: Reproduce the frozen routing decision and held-out results
+        run: |
+          python -m expensebench.experiment select --lock "$RUNNER_TEMP/development_selection.json"
+          diff results/development_selection.json "$RUNNER_TEMP/development_selection.json"
+          python -m expensebench.experiment report --out "$RUNNER_TEMP/reproduced"
+          diff results/heldout.json "$RUNNER_TEMP/reproduced/heldout.json"
+          diff results/heldout_decisions.jsonl "$RUNNER_TEMP/reproduced/heldout_decisions.jsonl"
