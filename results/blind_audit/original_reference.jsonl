@@ -1,0 +1,12 @@
+{"case_id":"C-11e73bc0e","action":"reject","required_evidence":["D-4E593","D-50785","P-35E32"]}
+{"case_id":"C-19aac709b","action":"review","required_evidence":["D-9DCF1","P-6432F"]}
+{"case_id":"C-3c856ad15","action":"review","required_evidence":["D-4ECC6","D-782FB","P-1907D"]}
+{"case_id":"C-908fe06f9","action":"reject","required_evidence":["D-6967F","D-CA517","P-F303B"]}
+{"case_id":"C-939bde446","action":"reject","required_evidence":["D-5D3E0","D-7A200","D-7EF53","P-3CEA6"]}
+{"case_id":"C-c85ce5bb2","action":"approve","required_evidence":["D-4E593","D-50785","P-35E32"]}
+{"case_id":"C-d41aedc69","action":"review","required_evidence":["D-74951","D-CB83B","P-5DD8C"]}
+{"case_id":"C-cb19ac026","action":"approve","required_evidence":["D-6967F","D-CA517","P-F303B"]}
+{"case_id":"C-0c3d0727d","action":"approve","required_evidence":["D-74951","D-CB83B","P-5DD8C"]}
+{"case_id":"C-1508a02f3","action":"review","required_evidence":["D-7EF53","P-3CEA6"]}
+{"case_id":"C-52f3f1115","action":"approve","required_evidence":["D-75269","D-9DCF1","D-F3662","P-6432F"]}
+{"case_id":"C-d05a7728b","action":"approve","required_evidence":["D-4ECC6","D-782FB","P-1907D"]}

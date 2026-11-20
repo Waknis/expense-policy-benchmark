@@ -1,0 +1,160 @@
+{
+  "reviewer_packet_sha256": "ff933df4834b215b28dbc9a4eaeeea966597d5d5b72dea132c5e1c9b01162ff3",
+  "annotation_sha256": "1197fbf1e6691dbe8329c6a932f3f760aced82a686dd3a3683b6683c91cde5fc",
+  "release_packet_sha256": "af178a51eaa997c066cad853e8f0e0e703483f21883010d8f96e513cfb0d9ae6",
+  "excluded_changed_packets": [
+    "C-19aac709b",
+    "C-52f3f1115"
+  ],
+  "eligible_families": [
+    "airfare_cabin_exception",
+    "equipment_allowance_revision",
+    "foreign_meal_rate",
+    "lodging_room_rate",
+    "purchase_preapproval"
+  ],
+  "original_full_label_sha256": "584c429efc3b610fc40c09de8f853cec20c094cae39bcb4dff326f1805e3ff1a",
+  "original": {
+    "cases": 10,
+    "actions_agree": 10,
+    "exact_evidence_sets": 6,
+    "sufficient_evidence_sets": 10,
+    "confusion": {
+      "approve": {
+        "approve": 4,
+        "review": 0,
+        "reject": 0,
+        "invalid": 0,
+        "missing": 0
+      },
+      "review": {
+        "approve": 0,
+        "review": 3,
+        "reject": 0,
+        "invalid": 0,
+        "missing": 0
+      },
+      "reject": {
+        "approve": 0,
+        "review": 0,
+        "reject": 3,
+        "invalid": 0,
+        "missing": 0
+      }
+    },
+    "differences": [
+      {
+        "case_id": "C-11e73bc0e",
+        "reference_action": "reject",
+        "reviewer_action": "reject",
+        "extra_citations": [
+          "D-0B452"
+        ],
+        "missing_citations": []
+      },
+      {
+        "case_id": "C-939bde446",
+        "reference_action": "reject",
+        "reviewer_action": "reject",
+        "extra_citations": [
+          "D-A142B"
+        ],
+        "missing_citations": []
+      },
+      {
+        "case_id": "C-c85ce5bb2",
+        "reference_action": "approve",
+        "reviewer_action": "approve",
+        "extra_citations": [
+          "D-0B452"
+        ],
+        "missing_citations": []
+      },
+      {
+        "case_id": "C-1508a02f3",
+        "reference_action": "review",
+        "reviewer_action": "review",
+        "extra_citations": [
+          "D-A142B"
+        ],
+        "missing_citations": []
+      }
+    ]
+  },
+  "release": {
+    "cases": 10,
+    "actions_agree": 10,
+    "exact_evidence_sets": 5,
+    "sufficient_evidence_sets": 10,
+    "confusion": {
+      "approve": {
+        "approve": 4,
+        "review": 0,
+        "reject": 0,
+        "invalid": 0,
+        "missing": 0
+      },
+      "review": {
+        "approve": 0,
+        "review": 3,
+        "reject": 0,
+        "invalid": 0,
+        "missing": 0
+      },
+      "reject": {
+        "approve": 0,
+        "review": 0,
+        "reject": 3,
+        "invalid": 0,
+        "missing": 0
+      }
+    },
+    "differences": [
+      {
+        "case_id": "C-11e73bc0e",
+        "reference_action": "reject",
+        "reviewer_action": "reject",
+        "extra_citations": [
+          "D-0B452"
+        ],
+        "missing_citations": []
+      },
+      {
+        "case_id": "C-3c856ad15",
+        "reference_action": "review",
+        "reviewer_action": "review",
+        "extra_citations": [
+          "D-782FB"
+        ],
+        "missing_citations": []
+      },
+      {
+        "case_id": "C-939bde446",
+        "reference_action": "reject",
+        "reviewer_action": "reject",
+        "extra_citations": [
+          "D-A142B"
+        ],
+        "missing_citations": []
+      },
+      {
+        "case_id": "C-c85ce5bb2",
+        "reference_action": "approve",
+        "reviewer_action": "approve",
+        "extra_citations": [
+          "D-0B452"
+        ],
+        "missing_citations": []
+      },
+      {
+        "case_id": "C-1508a02f3",
+        "reference_action": "review",
+        "reviewer_action": "review",
+        "extra_citations": [
+          "D-A142B"
+        ],
+        "missing_citations": []
+      }
+    ]
+  }
+}
