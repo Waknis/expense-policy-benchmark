@@ -1,0 +1,120 @@
+{"case_id":"C-0217cbd38","action":"review","required_evidence":["D-CB09F","P-3CEA6"],"rationale":"The applicable zone cap is unknown."}
+{"case_id":"C-027c0e176","action":"review","required_evidence":["D-66792","D-FE794","P-1907D"],"rationale":"The half-year history is unavailable; the annual screen cannot replace it."}
+{"case_id":"C-04f9410ea","action":"review","required_evidence":["D-714EE","D-E22B5","P-F303B"],"rationale":"The mandatory purchase-date rate is unavailable."}
+{"case_id":"C-09f94dc1b","action":"review","required_evidence":["D-C6690","P-6432F"],"rationale":"The prior reference is unavailable, so the match cannot be resolved."}
+{"case_id":"C-09fa0ae2a","action":"approve","required_evidence":["D-C5925","P-965BE"],"rationale":"Dispatch confirms an eligible work trip."}
+{"case_id":"C-0c3d0727d","action":"approve","required_evidence":["D-74951","D-CB83B","P-5DD8C"],"rationale":"The manager authorized this above-threshold charge beforehand."}
+{"case_id":"C-0d8d63fd7","action":"approve","required_evidence":["D-32160","D-3541F","D-8FDCD","P-6432F"],"rationale":"The earlier payment for this receipt no longer disburses funds."}
+{"case_id":"C-11e73bc0e","action":"reject","required_evidence":["D-4E593","D-50785","P-35E32"],"rationale":"No single segment reaches 360 minutes."}
+{"case_id":"C-1508a02f3","action":"review","required_evidence":["D-7EF53","P-3CEA6"],"rationale":"There is no reliable room-only subtotal; the card total includes other charges."}
+{"case_id":"C-19aac709b","action":"review","required_evidence":["D-9DCF1","P-6432F"],"rationale":"The prior reference is unavailable, so the match cannot be resolved."}
+{"case_id":"C-1b173d874","action":"approve","required_evidence":["D-33BBC","D-88348","D-8D6C2","P-6432F"],"rationale":"The earlier payment for this receipt no longer disburses funds."}
+{"case_id":"C-1b1fb5c01","action":"approve","required_evidence":["D-ACD49","D-F9724","P-1907D"],"rationale":"The current and prior payments fit the effective allowance."}
+{"case_id":"C-23ac7ac81","action":"reject","required_evidence":["D-082F3","P-35E32"],"rationale":"The booked cabin is prohibited regardless of duration."}
+{"case_id":"C-28358d1ca","action":"reject","required_evidence":["D-5800A","D-EE600","P-230AE"],"rationale":"The total exceeds the limit for 1 confirmed attendees."}
+{"case_id":"C-296a8fe06","action":"reject","required_evidence":["D-8F536","D-EC264","P-5DD8C"],"rationale":"The manager authorization was at or after the charge."}
+{"case_id":"C-2b8b48a4f","action":"review","required_evidence":["D-A6EDD","P-02D50"],"rationale":"The registrar's confirmation date is unavailable."}
+{"case_id":"C-2d4ea5b47","action":"approve","required_evidence":["D-701A8","D-D99E6","P-F303B"],"rationale":"At the required rate, the rounded USD amount is within USD 60."}
+{"case_id":"C-300fd0245","action":"review","required_evidence":["D-473FE","D-9679F","P-1907D"],"rationale":"The half-year history is unavailable; the annual screen cannot replace it."}
+{"case_id":"C-33a971243","action":"reject","required_evidence":["D-9C6B2","D-C6690","D-E2C47","P-6432F"],"rationale":"This receipt has already been paid."}
+{"case_id":"C-36a8df965","action":"approve","required_evidence":["D-8AE5E","D-ABAD0","D-EF956","P-3CEA6"],"rationale":"USD 187.50 per night fits the metro cap."}
+{"case_id":"C-3816c2745","action":"review","required_evidence":["D-D0B8B","D-DD70B","P-F303B"],"rationale":"The mandatory purchase-date rate is unavailable."}
+{"case_id":"C-381d606ad","action":"reject","required_evidence":["D-7553A","D-9B891","P-230AE"],"rationale":"The total exceeds the limit for 3 confirmed attendees."}
+{"case_id":"C-386061bda","action":"reject","required_evidence":["D-4B312","P-965BE"],"rationale":"Dispatch confirms an excluded commute."}
+{"case_id":"C-39bee940e","action":"reject","required_evidence":["D-D6B05","D-DD23A","P-230AE"],"rationale":"The total exceeds the limit for 2 confirmed attendees."}
+{"case_id":"C-3a4ad6aca","action":"reject","required_evidence":["D-7D78A","D-B8E65","P-CB33D"],"rationale":"The reseller's current designation excludes reimbursement."}
+{"case_id":"C-3b4120280","action":"review","required_evidence":["D-0DC23","P-3CEA6"],"rationale":"There is no reliable room-only subtotal; the card total includes other charges."}
+{"case_id":"C-3c856ad15","action":"review","required_evidence":["D-4ECC6","D-782FB","P-1907D"],"rationale":"The half-year history is unavailable; the annual screen cannot replace it."}
+{"case_id":"C-3d7624b5c","action":"approve","required_evidence":["D-082F3","P-35E32"],"rationale":"Standard economy is eligible regardless of segment length."}
+{"case_id":"C-3f3673739","action":"approve","required_evidence":["D-3339C","D-9A979","P-5DD8C"],"rationale":"The manager authorized this above-threshold charge beforehand."}
+{"case_id":"C-3f600cccc","action":"approve","required_evidence":["D-7D78A","D-B8E65","P-CB33D"],"rationale":"The reseller is a current active partner."}
+{"case_id":"C-491f56dfb","action":"review","required_evidence":["D-2EDDA","D-3ABAA","P-35E32"],"rationale":"The premium cabin needs verified segment evidence."}
+{"case_id":"C-4b64e7e17","action":"approve","required_evidence":["D-2ACDB","D-7E0B6","P-230AE"],"rationale":"The total fits the limit for 2 confirmed attendees."}
+{"case_id":"C-4fab393a4","action":"approve","required_evidence":["D-2BA14","D-8E14F","P-CB33D"],"rationale":"The reseller is a current active partner."}
+{"case_id":"C-50114d81d","action":"reject","required_evidence":["D-3339C","D-9A979","P-5DD8C"],"rationale":"The manager authorization was at or after the charge."}
+{"case_id":"C-52f3f1115","action":"approve","required_evidence":["D-75269","D-9DCF1","D-F3662","P-6432F"],"rationale":"The settled payment concerns a different receipt."}
+{"case_id":"C-576ea8ac5","action":"approve","required_evidence":["D-DC0F5","P-965BE"],"rationale":"Dispatch confirms an eligible work trip."}
+{"case_id":"C-592063c66","action":"reject","required_evidence":["D-714EE","D-E22B5","P-F303B"],"rationale":"At the required rate, the rounded USD amount exceeds USD 60."}
+{"case_id":"C-6085ebd3b","action":"review","required_evidence":["D-C5925","P-965BE"],"rationale":"The recorded route requires manual review."}
+{"case_id":"C-60b55558c","action":"reject","required_evidence":["D-D94C1","D-F2D09","P-CB33D"],"rationale":"The reseller's current designation excludes reimbursement."}
+{"case_id":"C-65921e9f6","action":"reject","required_evidence":["D-83811","D-99EB9","D-D1C36","P-6432F"],"rationale":"The bank shows a settled payment for this same receipt."}
+{"case_id":"C-65a82fac6","action":"approve","required_evidence":["D-4DFD5","P-965BE"],"rationale":"Dispatch confirms an eligible work trip."}
+{"case_id":"C-6711e0569","action":"approve","required_evidence":["D-7A129","D-B4C08","P-5DD8C"],"rationale":"The manager authorized this above-threshold charge beforehand."}
+{"case_id":"C-686b734bb","action":"reject","required_evidence":["D-75947","D-77B58","P-CB33D"],"rationale":"The reseller's current designation excludes reimbursement."}
+{"case_id":"C-6b18ec10e","action":"approve","required_evidence":["D-031F6","D-0DC23","D-1CE29","P-3CEA6"],"rationale":"The documented room subtotal is inside the zone allowance."}
+{"case_id":"C-6c084be5f","action":"review","required_evidence":["D-2DA7C","D-5DF68","P-35E32"],"rationale":"The longest segment is unknown despite an available total itinerary time."}
+{"case_id":"C-6d5e9f3aa","action":"review","required_evidence":["D-7553A","P-230AE"],"rationale":"The confirmed count is unavailable."}
+{"case_id":"C-6df68f86d","action":"approve","required_evidence":["D-D94C1","D-F2D09","P-CB33D"],"rationale":"The reseller is a current active partner."}
+{"case_id":"C-6f8569bc8","action":"review","required_evidence":["D-1E93A","D-EDF15","P-F303B"],"rationale":"The mandatory purchase-date rate is unavailable."}
+{"case_id":"C-706fab4e0","action":"approve","required_evidence":["D-073AD","D-CB73B","P-5DD8C"],"rationale":"The manager authorized this above-threshold charge beforehand."}
+{"case_id":"C-719ef098e","action":"approve","required_evidence":["D-30D98","D-903AD","P-F303B"],"rationale":"At the required rate, the rounded USD amount is within USD 60."}
+{"case_id":"C-720f99033","action":"review","required_evidence":["D-2BA14","D-8E14F","P-CB33D"],"rationale":"Current reseller eligibility is unresolved."}
+{"case_id":"C-72c09c230","action":"review","required_evidence":["D-6437E","D-AEDBE","P-5DD8C"],"rationale":"The charge exceeds the exemption and the manager's authorization time is unavailable."}
+{"case_id":"C-7559488e0","action":"review","required_evidence":["D-8F536","D-EC264","P-5DD8C"],"rationale":"The charge exceeds the exemption and the manager's authorization time is unavailable."}
+{"case_id":"C-7a710b479","action":"approve","required_evidence":["D-473FE","D-9679F","P-1907D"],"rationale":"The current and prior payments fit the effective allowance."}
+{"case_id":"C-7e8522788","action":"reject","required_evidence":["D-16E61","D-AACC4","P-1907D"],"rationale":"The combined amount exceeds the allowance in force on the charge date."}
+{"case_id":"C-8019e2393","action":"approve","required_evidence":["D-1BFFE","D-81746","P-02D50"],"rationale":"Enrollment was confirmed by the course start."}
+{"case_id":"C-82724d861","action":"reject","required_evidence":["D-8AE5E","D-ABAD0","D-EF956","P-3CEA6"],"rationale":"USD 187.50 per night exceeds the standard cap."}
+{"case_id":"C-836f93c6a","action":"approve","required_evidence":["D-99F89","D-EA7C1","P-02D50"],"rationale":"Enrollment was confirmed by the course start."}
+{"case_id":"C-85317dd81","action":"reject","required_evidence":["D-7499C","P-35E32"],"rationale":"The booked cabin is prohibited regardless of duration."}
+{"case_id":"C-8a3dc9a66","action":"approve","required_evidence":["D-21C9D","D-65373","D-D5C1B","P-3CEA6"],"rationale":"The documented room subtotal is inside the zone allowance."}
+{"case_id":"C-8b885a997","action":"reject","required_evidence":["D-33BBC","D-88348","D-8D6C2","P-6432F"],"rationale":"The bank shows a settled payment for this same receipt."}
+{"case_id":"C-8db0c0d36","action":"reject","required_evidence":["D-4F743","D-E7E2B","P-35E32"],"rationale":"No single segment reaches 360 minutes."}
+{"case_id":"C-908fe06f9","action":"reject","required_evidence":["D-6967F","D-CA517","P-F303B"],"rationale":"At the required rate, the rounded USD amount exceeds USD 60."}
+{"case_id":"C-92d4e5301","action":"reject","required_evidence":["D-30D98","D-903AD","P-F303B"],"rationale":"At the required rate, the rounded USD amount exceeds USD 60."}
+{"case_id":"C-939bde446","action":"reject","required_evidence":["D-5D3E0","D-7A200","D-7EF53","P-3CEA6"],"rationale":"The room subtotal exceeds nights multiplied by the zone cap."}
+{"case_id":"C-942837242","action":"approve","required_evidence":["D-4A136","D-973DA","P-02D50"],"rationale":"Enrollment was confirmed by the course start."}
+{"case_id":"C-956176df1","action":"approve","required_evidence":["D-45362","D-DC33F","P-230AE"],"rationale":"The total fits the limit for 3 confirmed attendees."}
+{"case_id":"C-96846b16c","action":"approve","required_evidence":["D-D0B8B","D-DD70B","P-F303B"],"rationale":"At the required rate, the rounded USD amount is within USD 60."}
+{"case_id":"C-96d90be9d","action":"review","required_evidence":["D-DD23A","P-230AE"],"rationale":"The confirmed count is unavailable."}
+{"case_id":"C-971449d5b","action":"approve","required_evidence":["D-3ABAA","P-35E32"],"rationale":"Standard economy is eligible regardless of segment length."}
+{"case_id":"C-9a5a7122e","action":"approve","required_evidence":["D-20F1E","D-E1912","P-02D50"],"rationale":"Enrollment was confirmed by the course start."}
+{"case_id":"C-9b0ec1e76","action":"approve","required_evidence":["D-3760D","D-806E9","D-9BDD7","P-3CEA6"],"rationale":"The documented room subtotal is inside the zone allowance."}
+{"case_id":"C-9b4a70fe5","action":"review","required_evidence":["D-99F89","P-02D50"],"rationale":"The registrar's confirmation date is unavailable."}
+{"case_id":"C-9db661be9","action":"reject","required_evidence":["D-6878B","D-81DC6","P-1907D"],"rationale":"The combined amount exceeds the allowance in force on the charge date."}
+{"case_id":"C-a2a33ae37","action":"review","required_evidence":["D-E1912","P-02D50"],"rationale":"The registrar's confirmation date is unavailable."}
+{"case_id":"C-a2b046bf7","action":"reject","required_evidence":["D-53EFA","P-965BE"],"rationale":"Dispatch confirms an excluded commute."}
+{"case_id":"C-ab1ea47ff","action":"review","required_evidence":["D-48928","D-59EA7","P-CB33D"],"rationale":"Current reseller eligibility is unresolved."}
+{"case_id":"C-ab7a05842","action":"reject","required_evidence":["D-6437E","D-AEDBE","P-5DD8C"],"rationale":"The manager authorization was at or after the charge."}
+{"case_id":"C-ada9b51fd","action":"reject","required_evidence":["D-0E696","D-B4604","D-CB09F","P-3CEA6"],"rationale":"USD 187.50 per night exceeds the standard cap."}
+{"case_id":"C-b0db39533","action":"review","required_evidence":["D-D5C1B","P-3CEA6"],"rationale":"There is no reliable room-only subtotal; the card total includes other charges."}
+{"case_id":"C-b71cfdcb4","action":"reject","required_evidence":["D-4E951","P-965BE"],"rationale":"Dispatch confirms an excluded commute."}
+{"case_id":"C-bb76717f3","action":"approve","required_evidence":["D-5800A","D-EE600","P-230AE"],"rationale":"The total fits the limit for 2 confirmed attendees."}
+{"case_id":"C-bbb16b6c9","action":"approve","required_evidence":["D-6878B","D-81DC6","P-1907D"],"rationale":"The current and prior payments fit the effective allowance."}
+{"case_id":"C-bcc794f54","action":"reject","required_evidence":["D-1E93A","D-EDF15","P-F303B"],"rationale":"At the required rate, the rounded USD amount exceeds USD 60."}
+{"case_id":"C-bcf6f3fac","action":"approve","required_evidence":["D-73E38","D-FA9E2","P-230AE"],"rationale":"The total fits the limit for 4 confirmed attendees."}
+{"case_id":"C-c121eeaaf","action":"reject","required_evidence":["D-1BFFE","D-81746","P-02D50"],"rationale":"Enrollment was confirmed after the course started."}
+{"case_id":"C-c184fc597","action":"reject","required_evidence":["D-28E61","D-59F7C","D-77F45","P-6432F"],"rationale":"This receipt has already been paid."}
+{"case_id":"C-c22b99993","action":"reject","required_evidence":["D-4DFD5","P-965BE"],"rationale":"Dispatch confirms an excluded commute."}
+{"case_id":"C-c509da60f","action":"reject","required_evidence":["D-2ACDB","D-7E0B6","P-230AE"],"rationale":"The total exceeds the limit for 1 confirmed attendees."}
+{"case_id":"C-c85ce5bb2","action":"approve","required_evidence":["D-4E593","D-50785","P-35E32"],"rationale":"At least one segment meets the premium economy threshold."}
+{"case_id":"C-c8b83b7cd","action":"review","required_evidence":["D-7A129","D-B4C08","P-5DD8C"],"rationale":"The charge exceeds the exemption and the manager's authorization time is unavailable."}
+{"case_id":"C-c8f8e8f93","action":"approve","required_evidence":["D-28E61","D-59F7C","D-77F45","P-6432F"],"rationale":"The settled payment concerns a different receipt."}
+{"case_id":"C-ca7584df5","action":"review","required_evidence":["D-7499C","D-DE388","P-35E32"],"rationale":"The premium cabin needs verified segment evidence."}
+{"case_id":"C-cb19ac026","action":"approve","required_evidence":["D-6967F","D-CA517","P-F303B"],"rationale":"At the required rate, the rounded USD amount is within USD 60."}
+{"case_id":"C-cd2d09495","action":"review","required_evidence":["D-FA9E2","P-230AE"],"rationale":"The confirmed count is unavailable."}
+{"case_id":"C-cfc7cf8ca","action":"reject","required_evidence":["D-B80D8","D-F0B9E","P-CB33D"],"rationale":"The reseller's current designation excludes reimbursement."}
+{"case_id":"C-d05a7728b","action":"approve","required_evidence":["D-4ECC6","D-782FB","P-1907D"],"rationale":"The current and prior payments fit the effective allowance."}
+{"case_id":"C-d121b3888","action":"reject","required_evidence":["D-383E2","D-F0563","P-02D50"],"rationale":"Enrollment was confirmed after the course started."}
+{"case_id":"C-d2e79f2fa","action":"review","required_evidence":["D-4B312","P-965BE"],"rationale":"The recorded route requires manual review."}
+{"case_id":"C-d3568ea5e","action":"review","required_evidence":["D-75947","D-77B58","P-CB33D"],"rationale":"Current reseller eligibility is unresolved."}
+{"case_id":"C-d41aedc69","action":"review","required_evidence":["D-74951","D-CB83B","P-5DD8C"],"rationale":"The charge exceeds the exemption and the manager's authorization time is unavailable."}
+{"case_id":"C-d504d7cb0","action":"review","required_evidence":["D-383E2","P-02D50"],"rationale":"The registrar's confirmation date is unavailable."}
+{"case_id":"C-d66304821","action":"reject","required_evidence":["D-ACD49","D-F9724","P-1907D"],"rationale":"The combined amount exceeds the allowance in force on the charge date."}
+{"case_id":"C-d84cfda73","action":"review","required_evidence":["D-B80D8","D-F0B9E","P-CB33D"],"rationale":"Current reseller eligibility is unresolved."}
+{"case_id":"C-d8961da7d","action":"reject","required_evidence":["D-9CB64","D-A6EDD","P-02D50"],"rationale":"Enrollment was confirmed after the course started."}
+{"case_id":"C-da1d60c66","action":"review","required_evidence":["D-DC0F5","P-965BE"],"rationale":"The recorded route requires manual review."}
+{"case_id":"C-dedd17b48","action":"review","required_evidence":["D-701A8","D-D99E6","P-F303B"],"rationale":"The mandatory purchase-date rate is unavailable."}
+{"case_id":"C-df0fd0c20","action":"review","required_evidence":["D-32160","D-3541F","D-8FDCD","P-6432F"],"rationale":"The matching bank payment has not reached a conclusive state."}
+{"case_id":"C-e0d6f2ace","action":"approve","required_evidence":["D-2DA7C","D-5DF68","P-35E32"],"rationale":"At least one segment meets the premium economy threshold."}
+{"case_id":"C-e2d688e89","action":"review","required_evidence":["D-16E61","D-AACC4","P-1907D"],"rationale":"The half-year history is unavailable; the annual screen cannot replace it."}
+{"case_id":"C-e52b5a74a","action":"review","required_evidence":["D-DC33F","P-230AE"],"rationale":"The confirmed count is unavailable."}
+{"case_id":"C-e52cdcb0e","action":"approve","required_evidence":["D-48928","D-59EA7","P-CB33D"],"rationale":"The reseller is a current active partner."}
+{"case_id":"C-e5fe99b5e","action":"review","required_evidence":["D-4E951","P-965BE"],"rationale":"The recorded route requires manual review."}
+{"case_id":"C-e770b915b","action":"review","required_evidence":["D-83811","D-99EB9","D-D1C36","P-6432F"],"rationale":"The matching bank payment has not reached a conclusive state."}
+{"case_id":"C-efd9ee90c","action":"approve","required_evidence":["D-53EFA","P-965BE"],"rationale":"Dispatch confirms an eligible work trip."}
+{"case_id":"C-f27878767","action":"reject","required_evidence":["D-073AD","D-CB73B","P-5DD8C"],"rationale":"The manager authorization was at or after the charge."}
+{"case_id":"C-f6d1999af","action":"reject","required_evidence":["D-4A136","D-973DA","P-02D50"],"rationale":"Enrollment was confirmed after the course started."}
+{"case_id":"C-fa54ed0c0","action":"reject","required_evidence":["D-3760D","D-806E9","D-9BDD7","P-3CEA6"],"rationale":"The room subtotal exceeds nights multiplied by the zone cap."}
+{"case_id":"C-fc1ae4853","action":"review","required_evidence":["D-4F743","D-E7E2B","P-35E32"],"rationale":"The longest segment is unknown despite an available total itinerary time."}
+{"case_id":"C-ffeb36ba6","action":"reject","required_evidence":["D-66792","D-FE794","P-1907D"],"rationale":"The combined amount exceeds the allowance in force on the charge date."}
