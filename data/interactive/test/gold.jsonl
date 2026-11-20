@@ -1,0 +1,288 @@
+{"case_id":"C-02ae46f61a23","action":"reject","required_evidence":["P-db7be71a31ce","D-f82b65d3574b","D-a6b1fe55abcd"],"rationale":"The active_machines_inspected requirement is violated."}
+{"case_id":"C-0345ad79737e","action":"approve","required_evidence":["P-466088be7d63","D-6a0fe9c439e9","D-327d80e11552"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-040a94184bf7","action":"review","required_evidence":["P-dce2b7c256c0","D-992b6d8e5822"],"rationale":"The required collection_permit value is unavailable."}
+{"case_id":"C-045f33579b87","action":"approve","required_evidence":["P-466088be7d63","D-952afe84cae8","D-66f7d0a09450"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-09d9ff4393bc","action":"review","required_evidence":["P-db7be71a31ce","D-0dbc8d71724b","D-29c99507c44e"],"rationale":"The required active_machines_inspected value is unavailable."}
+{"case_id":"C-0ae4df5efd8e","action":"approve","required_evidence":["P-fa4fee11afd4","D-9c739fa9fc62","D-d4cce2216cd5"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-0bd45e449d88","action":"review","required_evidence":["P-895569be740c","D-e383a0794b7d"],"rationale":"The required collection_permit value is unavailable."}
+{"case_id":"C-0c7a7856855b","action":"reject","required_evidence":["P-466088be7d63","D-fc62dda3b5a9"],"rationale":"The dispatch_basis requirement is violated."}
+{"case_id":"C-0c831a799f1d","action":"review","required_evidence":["P-895569be740c","D-382bd261b8c5"],"rationale":"The required collection_permit value is unavailable."}
+{"case_id":"C-0e5135add7cf","action":"reject","required_evidence":["P-de75529b68cd","D-e50a6ebbbfdf","D-e513e5e3c711"],"rationale":"The active_machines_inspected requirement is violated."}
+{"case_id":"C-0efb448457b2","action":"reject","required_evidence":["P-466088be7d63","D-1fc3859d9760"],"rationale":"The dispatch_basis requirement is violated."}
+{"case_id":"C-0fcb7cf8288e","action":"reject","required_evidence":["P-466088be7d63","D-0f4379610134","D-90bcb01b9a99"],"rationale":"The metered_hire_hours requirement is violated."}
+{"case_id":"C-1010c46289f2","action":"reject","required_evidence":["P-5d9d1d8908a5","D-eba259ae5690","D-942340bc5c47"],"rationale":"The contrast_hundredths requirement is violated."}
+{"case_id":"C-1103b4656b28","action":"approve","required_evidence":["P-466088be7d63","D-fc62dda3b5a9","D-90cd44d0ef4b"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-139878a98bbe","action":"review","required_evidence":["P-895569be740c","D-9ec3abf5a8f4","D-9b151fe57f2c"],"rationale":"The required net_return_kg value is unavailable."}
+{"case_id":"C-13a2328a768a","action":"reject","required_evidence":["P-de75529b68cd","D-53d554186afc","D-05f573ee6980"],"rationale":"The active_machines_inspected requirement is violated."}
+{"case_id":"C-15391e411c46","action":"reject","required_evidence":["P-466088be7d63","D-5a95ec2cff62"],"rationale":"The dispatch_basis requirement is violated."}
+{"case_id":"C-15c3c92e22e3","action":"reject","required_evidence":["P-f3360665ab39","D-d5d56fea7f73","D-1d883feaefef"],"rationale":"The net_return_kg requirement is violated."}
+{"case_id":"C-16608b638546","action":"review","required_evidence":["P-895569be740c","D-ccdb9da23dd2"],"rationale":"The required collection_permit value is unavailable."}
+{"case_id":"C-16f51bd4a6cf","action":"reject","required_evidence":["P-fa4fee11afd4","D-5d0f687a4e33"],"rationale":"The site_designation requirement is violated."}
+{"case_id":"C-198f2bc6be84","action":"reject","required_evidence":["P-db7be71a31ce","D-4ca660e07eed"],"rationale":"The examiner_status requirement is violated."}
+{"case_id":"C-19ad35157108","action":"approve","required_evidence":["P-20853a29c804","D-f0e1b6a7c9c0","D-4179308f6645"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-1b9f356781eb","action":"approve","required_evidence":["P-0a31f967f878","D-73bfe9d20fbf","D-b043f0dec495"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-1bf89234bc91","action":"approve","required_evidence":["P-fa4fee11afd4","D-805b78dda143","D-b069bf744534"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-1bfa3285c358","action":"approve","required_evidence":["P-5d9d1d8908a5","D-6f1c14054f59","D-9e85e9066fdd"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-1cd11cb1246e","action":"reject","required_evidence":["P-2e50d90a83cc","D-0d74a4df963d"],"rationale":"The warranty_days_at_intake requirement is violated."}
+{"case_id":"C-1ebfda76a035","action":"reject","required_evidence":["P-0a31f967f878","D-4d32480b1d22"],"rationale":"The dispatch_basis requirement is violated."}
+{"case_id":"C-1fa464171cab","action":"approve","required_evidence":["P-4ed7c6cb5644","D-e6324101e2e9","D-bcc3df7dd790"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-20af8b8401d6","action":"approve","required_evidence":["P-3ea93b29e9bb","D-13327b61f32a","D-00b96e3e295e"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-22036645708d","action":"reject","required_evidence":["P-20853a29c804","D-f0e1b6a7c9c0"],"rationale":"The posted_trip_nights requirement is violated."}
+{"case_id":"C-226e7524f63c","action":"reject","required_evidence":["P-de75529b68cd","D-525cdc463bbe"],"rationale":"The examiner_status requirement is violated."}
+{"case_id":"C-229c41c6f2bc","action":"review","required_evidence":["P-0b1693787c88","D-591231ff8e23"],"rationale":"The required posted_trip_nights value is unavailable."}
+{"case_id":"C-22d02399e192","action":"reject","required_evidence":["P-edb54a8a1a20","D-855e3d82877b","D-8a4be5d8e448"],"rationale":"The invoice_scope requirement is violated."}
+{"case_id":"C-2420b68013ad","action":"approve","required_evidence":["P-0a31f967f878","D-d86c190c40df","D-dfcd80405373"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-242ad94a79d1","action":"approve","required_evidence":["P-cd612f63d6ad","D-7da8671ecfd6","D-8ead5f74b214"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-24303f92b152","action":"approve","required_evidence":["P-cfa6338835bf","D-0f4beba532fc","D-e7bc95356498"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-244c9cb57ea2","action":"approve","required_evidence":["P-2e50d90a83cc","D-0d74a4df963d","D-8cddb8a1418c"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-26650ad97143","action":"reject","required_evidence":["P-5d9d1d8908a5","D-3c926253e744"],"rationale":"The site_designation requirement is violated."}
+{"case_id":"C-277965af85a4","action":"review","required_evidence":["P-2e50d90a83cc","D-bcf9737097c7"],"rationale":"The required warranty_days_at_intake value is unavailable."}
+{"case_id":"C-287b06c55e05","action":"reject","required_evidence":["P-4ed7c6cb5644","D-ba1f449920ab"],"rationale":"The warranty_days_at_intake requirement is violated."}
+{"case_id":"C-28c0380ef614","action":"approve","required_evidence":["P-de75529b68cd","D-6464d89bf6a3","D-f8206f327f6d"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-29563d105d53","action":"reject","required_evidence":["P-db7be71a31ce","D-ba30271d8e08"],"rationale":"The examiner_status requirement is violated."}
+{"case_id":"C-2a553d9f31d1","action":"review","required_evidence":["P-5d9d1d8908a5","D-6f1c14054f59","D-9e85e9066fdd"],"rationale":"The required contrast_hundredths value is unavailable."}
+{"case_id":"C-2a822f217d28","action":"approve","required_evidence":["P-f3360665ab39","D-a18248a5077b","D-bf65c335396e"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-2a9ba3bbbe93","action":"review","required_evidence":["P-2e50d90a83cc","D-59ed8cda9686","D-ac6ad3cdbab5"],"rationale":"The required service_designation value is unavailable."}
+{"case_id":"C-2c305da27055","action":"approve","required_evidence":["P-db7be71a31ce","D-ba30271d8e08","D-e1834626de88"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-2c66c0ae449a","action":"reject","required_evidence":["P-f3360665ab39","D-b17d3fa081c1","D-4c3888536902"],"rationale":"The net_return_kg requirement is violated."}
+{"case_id":"C-2ce2567e7ff6","action":"reject","required_evidence":["P-0b1693787c88","D-148aba5b6984"],"rationale":"The posted_trip_nights requirement is violated."}
+{"case_id":"C-2d2632262d6d","action":"review","required_evidence":["P-cd612f63d6ad","D-9bdb45d7a1a2"],"rationale":"The required examiner_status value is unavailable."}
+{"case_id":"C-2da68c546966","action":"reject","required_evidence":["P-7c644e9b5da5","D-afc28bc2f8b7","D-a0d2174db538"],"rationale":"The service_designation requirement is violated."}
+{"case_id":"C-2fdae07d577f","action":"review","required_evidence":["P-cd612f63d6ad","D-1639b950e6c0","D-d22ee07bb2cf"],"rationale":"The required active_machines_inspected value is unavailable."}
+{"case_id":"C-314cabf01fa8","action":"reject","required_evidence":["P-466088be7d63","D-ec50aba9d4c7","D-5c2eafa5b390"],"rationale":"The metered_hire_hours requirement is violated."}
+{"case_id":"C-316959a2cd73","action":"approve","required_evidence":["P-0a31f967f878","D-7bfb58ad1b05","D-372c66912f39"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-332aaa6e3e98","action":"reject","required_evidence":["P-466088be7d63","D-1980c388674d","D-e997721d389c"],"rationale":"The metered_hire_hours requirement is violated."}
+{"case_id":"C-339ad7273d51","action":"approve","required_evidence":["P-5d9d1d8908a5","D-0fcfab42c15b","D-c6257056f392"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-34221cb82014","action":"approve","required_evidence":["P-5d9d1d8908a5","D-25d0a86f7bf0","D-ccaa47561a6d"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-368cb7c2106d","action":"approve","required_evidence":["P-2e50d90a83cc","D-c9f9d65dac55","D-d65ae4cec75b"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-36aa24d3c7a5","action":"review","required_evidence":["P-3ea93b29e9bb","D-a431689aad29","D-a2227e937dba"],"rationale":"The required metered_hire_hours value is unavailable."}
+{"case_id":"C-3866a9545570","action":"approve","required_evidence":["P-20853a29c804","D-7e2a673d5896","D-797a2c28c242"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-38b228c1105f","action":"approve","required_evidence":["P-466088be7d63","D-0f4379610134","D-90bcb01b9a99"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-3a099c93676e","action":"approve","required_evidence":["P-2e50d90a83cc","D-bcf9737097c7","D-ee9f80f5f1b9"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-3a4db1eefcc4","action":"review","required_evidence":["P-cfa6338835bf","D-0f4beba532fc"],"rationale":"The required site_designation value is unavailable."}
+{"case_id":"C-3c6cfa828f64","action":"reject","required_evidence":["P-f3360665ab39","D-65cd2df778b7","D-1527df79c564"],"rationale":"The net_return_kg requirement is violated."}
+{"case_id":"C-3cf55da77bc2","action":"reject","required_evidence":["P-de75529b68cd","D-31772481acde"],"rationale":"The examiner_status requirement is violated."}
+{"case_id":"C-3d8d0a382f33","action":"reject","required_evidence":["P-2e50d90a83cc","D-7783c6f0a574","D-5c80d90b1d1a"],"rationale":"The service_designation requirement is violated."}
+{"case_id":"C-3d8fa7b34b11","action":"reject","required_evidence":["P-0a31f967f878","D-d86c190c40df"],"rationale":"The dispatch_basis requirement is violated."}
+{"case_id":"C-3ed9c0f133af","action":"reject","required_evidence":["P-de75529b68cd","D-1fb2331d0d5c","D-31a6837057ed"],"rationale":"The active_machines_inspected requirement is violated."}
+{"case_id":"C-407a3a45df3e","action":"approve","required_evidence":["P-cfa6338835bf","D-de561056e420","D-972a3fc6964d"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-40bf0afe91de","action":"reject","required_evidence":["P-fa4fee11afd4","D-805b78dda143"],"rationale":"The site_designation requirement is violated."}
+{"case_id":"C-438dcd2ac09c","action":"review","required_evidence":["P-fa4fee11afd4","D-d82c06f1efa1"],"rationale":"The required site_designation value is unavailable."}
+{"case_id":"C-43b755949575","action":"reject","required_evidence":["P-0a31f967f878","D-7bfb58ad1b05","D-372c66912f39"],"rationale":"The metered_hire_hours requirement is violated."}
+{"case_id":"C-450ae11c9c56","action":"approve","required_evidence":["P-dce2b7c256c0","D-cb428d71daac","D-465b8804d6e1"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-45b8a6384d87","action":"approve","required_evidence":["P-db7be71a31ce","D-c4e2f10456f0","D-c47532e667e3"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-45d27b51b467","action":"review","required_evidence":["P-dce2b7c256c0","D-b86b75e711ad","D-93cbe8a50f70"],"rationale":"The required net_return_kg value is unavailable."}
+{"case_id":"C-47d2c3858046","action":"review","required_evidence":["P-3ea93b29e9bb","D-bbb82a026a6e","D-2345a721363a"],"rationale":"The required metered_hire_hours value is unavailable."}
+{"case_id":"C-481137ac172d","action":"approve","required_evidence":["P-2e50d90a83cc","D-6db96dbb37d4","D-48b0b1b8334b"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-4897a9cc7ead","action":"reject","required_evidence":["P-0b1693787c88","D-9a8b87df705f"],"rationale":"The posted_trip_nights requirement is violated."}
+{"case_id":"C-48adfd239c3c","action":"review","required_evidence":["P-f3360665ab39","D-65cd2df778b7","D-1527df79c564"],"rationale":"The required net_return_kg value is unavailable."}
+{"case_id":"C-49a8f728ed8c","action":"reject","required_evidence":["P-7c644e9b5da5","D-00d293dd6aeb"],"rationale":"The warranty_days_at_intake requirement is violated."}
+{"case_id":"C-4b35812fa8da","action":"reject","required_evidence":["P-5d9d1d8908a5","D-9682c05de4a3","D-3cd1ecb2455f"],"rationale":"The contrast_hundredths requirement is violated."}
+{"case_id":"C-4b81717d6026","action":"review","required_evidence":["P-4ed7c6cb5644","D-ba1f449920ab"],"rationale":"The required warranty_days_at_intake value is unavailable."}
+{"case_id":"C-4b8887a5d2b0","action":"approve","required_evidence":["P-466088be7d63","D-9f3e7fa8262b","D-ddb3acc0018f"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-4d3eb24d60d1","action":"review","required_evidence":["P-0a31f967f878","D-31330bd1d895","D-01973301fe59"],"rationale":"The required metered_hire_hours value is unavailable."}
+{"case_id":"C-4f82709c3101","action":"reject","required_evidence":["P-895569be740c","D-1adff9f49a63"],"rationale":"The collection_permit requirement is violated."}
+{"case_id":"C-4fbc76c89f4c","action":"review","required_evidence":["P-de75529b68cd","D-6464d89bf6a3"],"rationale":"The required examiner_status value is unavailable."}
+{"case_id":"C-504e661c4fb9","action":"approve","required_evidence":["P-2e50d90a83cc","D-846059634176","D-e682127e55e6"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-50b24d3f52af","action":"approve","required_evidence":["P-0b1693787c88","D-c5de3e8acef2","D-1aa708f6746b"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-5130431261e0","action":"approve","required_evidence":["P-f3360665ab39","D-856730ed0e1a","D-0d22f6e56725"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-52482d4d47af","action":"reject","required_evidence":["P-0b1693787c88","D-6b0c9c7d6951","D-6e31b50c8106"],"rationale":"The invoice_scope requirement is violated."}
+{"case_id":"C-52c9a61cdd30","action":"approve","required_evidence":["P-de75529b68cd","D-53d554186afc","D-05f573ee6980"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-52fd47a0128f","action":"review","required_evidence":["P-0a31f967f878","D-73bfe9d20fbf","D-b043f0dec495"],"rationale":"The required metered_hire_hours value is unavailable."}
+{"case_id":"C-5308d8a55259","action":"approve","required_evidence":["P-895569be740c","D-d5de98513548","D-7079ffbbba85"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-531520c9d0c3","action":"review","required_evidence":["P-0b1693787c88","D-297c94010e7d","D-03aefcbaa34f"],"rationale":"The required invoice_scope value is unavailable."}
+{"case_id":"C-53187a01fcae","action":"reject","required_evidence":["P-f3360665ab39","D-856730ed0e1a"],"rationale":"The collection_permit requirement is violated."}
+{"case_id":"C-53388b43cd8f","action":"approve","required_evidence":["P-fa4fee11afd4","D-f7f88f465f32","D-6473912f77b5"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-54028c413a9f","action":"reject","required_evidence":["P-7c644e9b5da5","D-18831b72a2a7","D-c42a1628c032"],"rationale":"The service_designation requirement is violated."}
+{"case_id":"C-54b7ebe359b5","action":"review","required_evidence":["P-895569be740c","D-1adff9f49a63"],"rationale":"The required collection_permit value is unavailable."}
+{"case_id":"C-56611a5c97c1","action":"approve","required_evidence":["P-3ea93b29e9bb","D-bbb82a026a6e","D-2345a721363a"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-567d0f71b99c","action":"approve","required_evidence":["P-20853a29c804","D-90fc1125d8f5","D-95533ecd4f69"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-57b728ccbbe7","action":"reject","required_evidence":["P-20853a29c804","D-7fa55d04e7f4"],"rationale":"The posted_trip_nights requirement is violated."}
+{"case_id":"C-5828c578f204","action":"review","required_evidence":["P-edb54a8a1a20","D-078b1a910599","D-a166308769fa"],"rationale":"The required invoice_scope value is unavailable."}
+{"case_id":"C-59a3746f5eb8","action":"review","required_evidence":["P-2e50d90a83cc","D-2ac87f5fd587"],"rationale":"The required warranty_days_at_intake value is unavailable."}
+{"case_id":"C-5d06b8496d7c","action":"reject","required_evidence":["P-2e50d90a83cc","D-e8fb3e2e272e"],"rationale":"The warranty_days_at_intake requirement is violated."}
+{"case_id":"C-5e098e865ab9","action":"review","required_evidence":["P-cd612f63d6ad","D-a65f8b9e7fb2"],"rationale":"The required examiner_status value is unavailable."}
+{"case_id":"C-5ea9d9cf225d","action":"reject","required_evidence":["P-fa4fee11afd4","D-c97f3cf06a2b","D-84cf9f793d12"],"rationale":"The contrast_hundredths requirement is violated."}
+{"case_id":"C-5ec112a8809f","action":"approve","required_evidence":["P-4ed7c6cb5644","D-0c2ddbaad211","D-37c281a94c78"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-60701e989527","action":"review","required_evidence":["P-0b1693787c88","D-6b0c9c7d6951","D-6e31b50c8106"],"rationale":"The required invoice_scope value is unavailable."}
+{"case_id":"C-60aa16c15ad0","action":"reject","required_evidence":["P-dce2b7c256c0","D-d5c0a8035437"],"rationale":"The collection_permit requirement is violated."}
+{"case_id":"C-611ad02df7e2","action":"approve","required_evidence":["P-0a31f967f878","D-ddc568a1ce5d","D-e705de269045"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-61266122ccbf","action":"reject","required_evidence":["P-895569be740c","D-ccdb9da23dd2"],"rationale":"The collection_permit requirement is violated."}
+{"case_id":"C-61b292d99cb3","action":"review","required_evidence":["P-4ed7c6cb5644","D-0dd846776f89","D-4fcb659ea0e3"],"rationale":"The required service_designation value is unavailable."}
+{"case_id":"C-6217b68cc631","action":"review","required_evidence":["P-0a31f967f878","D-5543ca12bd0f"],"rationale":"The required dispatch_basis value is unavailable."}
+{"case_id":"C-6269d5ea318f","action":"approve","required_evidence":["P-edb54a8a1a20","D-d4227011b436","D-9116df2c33ac"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-6337964edbd0","action":"review","required_evidence":["P-cd612f63d6ad","D-1243122214bf"],"rationale":"The required examiner_status value is unavailable."}
+{"case_id":"C-64232df9a1bd","action":"reject","required_evidence":["P-0b1693787c88","D-15f06029f69b","D-1d6b165490f3"],"rationale":"The invoice_scope requirement is violated."}
+{"case_id":"C-65b513c50974","action":"approve","required_evidence":["P-cd612f63d6ad","D-1243122214bf","D-3e9c362a5de9"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-65e3ada41601","action":"reject","required_evidence":["P-dce2b7c256c0","D-8122f1fabf21"],"rationale":"The collection_permit requirement is violated."}
+{"case_id":"C-6626b2b521f7","action":"review","required_evidence":["P-dce2b7c256c0","D-cb428d71daac"],"rationale":"The required collection_permit value is unavailable."}
+{"case_id":"C-6769e5490501","action":"review","required_evidence":["P-4ed7c6cb5644","D-48fa376c672e"],"rationale":"The required warranty_days_at_intake value is unavailable."}
+{"case_id":"C-67d1aa1e55fb","action":"review","required_evidence":["P-fa4fee11afd4","D-1c13dda5f836","D-f8d40a81a321"],"rationale":"The required contrast_hundredths value is unavailable."}
+{"case_id":"C-68c03fb9a706","action":"reject","required_evidence":["P-895569be740c","D-c95dab2a34a7"],"rationale":"The collection_permit requirement is violated."}
+{"case_id":"C-692630950f06","action":"approve","required_evidence":["P-895569be740c","D-382bd261b8c5","D-f411d95927ff"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-69381dec02d1","action":"approve","required_evidence":["P-db7be71a31ce","D-4cf7ce1bf337","D-81d56ecb711e"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-69ff0f6686be","action":"reject","required_evidence":["P-20853a29c804","D-7d5b78c7914f","D-7ad37995e067"],"rationale":"The invoice_scope requirement is violated."}
+{"case_id":"C-6a4232fd9c0c","action":"reject","required_evidence":["P-2e50d90a83cc","D-c9f9d65dac55"],"rationale":"The warranty_days_at_intake requirement is violated."}
+{"case_id":"C-6a94a16cf3bd","action":"reject","required_evidence":["P-4ed7c6cb5644","D-e6324101e2e9"],"rationale":"The warranty_days_at_intake requirement is violated."}
+{"case_id":"C-6c40c65707b3","action":"reject","required_evidence":["P-cfa6338835bf","D-960e5c7cb354","D-6bd43c611b73"],"rationale":"The contrast_hundredths requirement is violated."}
+{"case_id":"C-6d946f22a811","action":"approve","required_evidence":["P-0a31f967f878","D-963f7e427132","D-8c839735f5ad"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-6f12095ae8e0","action":"review","required_evidence":["P-466088be7d63","D-ec50aba9d4c7","D-5c2eafa5b390"],"rationale":"The required metered_hire_hours value is unavailable."}
+{"case_id":"C-7391187d326e","action":"review","required_evidence":["P-895569be740c","D-dd90b279c67e"],"rationale":"The required collection_permit value is unavailable."}
+{"case_id":"C-73dbb691ba01","action":"reject","required_evidence":["P-dce2b7c256c0","D-b86b75e711ad","D-93cbe8a50f70"],"rationale":"The net_return_kg requirement is violated."}
+{"case_id":"C-73ff0930bc05","action":"approve","required_evidence":["P-0a31f967f878","D-4d32480b1d22","D-aca21b4364eb"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-7627164a76f3","action":"approve","required_evidence":["P-466088be7d63","D-5a95ec2cff62","D-b665a9e8e2c5"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-765f5ee3558d","action":"reject","required_evidence":["P-3ea93b29e9bb","D-a431689aad29","D-a2227e937dba"],"rationale":"The metered_hire_hours requirement is violated."}
+{"case_id":"C-78ec9ac76ab2","action":"review","required_evidence":["P-dce2b7c256c0","D-d5c0a8035437"],"rationale":"The required collection_permit value is unavailable."}
+{"case_id":"C-79b236ded0b8","action":"reject","required_evidence":["P-0a31f967f878","D-5543ca12bd0f"],"rationale":"The dispatch_basis requirement is violated."}
+{"case_id":"C-7ba30c472b17","action":"approve","required_evidence":["P-f3360665ab39","D-0523c72ece07","D-270a909d6d8e"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-7c59d5bdc02c","action":"review","required_evidence":["P-0b1693787c88","D-148aba5b6984"],"rationale":"The required posted_trip_nights value is unavailable."}
+{"case_id":"C-7da1dfda7c2e","action":"reject","required_evidence":["P-4ed7c6cb5644","D-9413b2ce52c5","D-61aa110268f3"],"rationale":"The service_designation requirement is violated."}
+{"case_id":"C-7db38daf1036","action":"review","required_evidence":["P-20853a29c804","D-7e2a673d5896"],"rationale":"The required posted_trip_nights value is unavailable."}
+{"case_id":"C-7ebb0afb0397","action":"reject","required_evidence":["P-cfa6338835bf","D-3eff3e44e052"],"rationale":"The site_designation requirement is violated."}
+{"case_id":"C-7f99a9ab6563","action":"review","required_evidence":["P-20853a29c804","D-91a9978dde1d"],"rationale":"The required posted_trip_nights value is unavailable."}
+{"case_id":"C-7fc41c3847ca","action":"review","required_evidence":["P-cfa6338835bf","D-960e5c7cb354","D-6bd43c611b73"],"rationale":"The required contrast_hundredths value is unavailable."}
+{"case_id":"C-7fd41c73da81","action":"approve","required_evidence":["P-de75529b68cd","D-b383f4bfef5c","D-fe99ebf9caed"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-80f148659696","action":"reject","required_evidence":["P-fa4fee11afd4","D-9c739fa9fc62","D-d4cce2216cd5"],"rationale":"The contrast_hundredths requirement is violated."}
+{"case_id":"C-810323b93b2c","action":"reject","required_evidence":["P-cd612f63d6ad","D-31ecbcac063f","D-d37f2cdebd9c"],"rationale":"The active_machines_inspected requirement is violated."}
+{"case_id":"C-82d4e973856f","action":"reject","required_evidence":["P-f3360665ab39","D-53bea8ff8e11","D-11cddded0bf7"],"rationale":"The net_return_kg requirement is violated."}
+{"case_id":"C-82de66043b58","action":"reject","required_evidence":["P-4ed7c6cb5644","D-0dd846776f89","D-4fcb659ea0e3"],"rationale":"The service_designation requirement is violated."}
+{"case_id":"C-82f46fbd31d5","action":"review","required_evidence":["P-edb54a8a1a20","D-d4227011b436","D-9116df2c33ac"],"rationale":"The required invoice_scope value is unavailable."}
+{"case_id":"C-83b65d37e0ed","action":"approve","required_evidence":["P-db7be71a31ce","D-292982c3f97d","D-ec7c6fad31c3"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-84d9c0ba5571","action":"review","required_evidence":["P-de75529b68cd","D-45a2e923eab3"],"rationale":"The required examiner_status value is unavailable."}
+{"case_id":"C-84f63bbf0704","action":"reject","required_evidence":["P-0a31f967f878","D-31330bd1d895","D-01973301fe59"],"rationale":"The metered_hire_hours requirement is violated."}
+{"case_id":"C-8684aabe48f3","action":"approve","required_evidence":["P-4ed7c6cb5644","D-48fa376c672e","D-273808be73d4"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-88000d05f621","action":"approve","required_evidence":["P-de75529b68cd","D-31772481acde","D-3e09ba0b60bc"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-8858c1ed96e5","action":"approve","required_evidence":["P-20853a29c804","D-729b0ed38abe","D-a2c5f2a681cb"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-889e23e4c1e2","action":"reject","required_evidence":["P-db7be71a31ce","D-c4e2f10456f0"],"rationale":"The examiner_status requirement is violated."}
+{"case_id":"C-896c601d7c91","action":"approve","required_evidence":["P-895569be740c","D-9ec3abf5a8f4","D-9b151fe57f2c"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-89b8d922d9d3","action":"approve","required_evidence":["P-0b1693787c88","D-15f06029f69b","D-1d6b165490f3"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-8a4966551eb9","action":"reject","required_evidence":["P-20853a29c804","D-8e5b127fe98b","D-e71682993364"],"rationale":"The invoice_scope requirement is violated."}
+{"case_id":"C-8a99118a0dae","action":"approve","required_evidence":["P-0b1693787c88","D-f310f80743fc","D-ac102e2a3768"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-8b1d31d5533a","action":"reject","required_evidence":["P-cd612f63d6ad","D-a65f8b9e7fb2"],"rationale":"The examiner_status requirement is violated."}
+{"case_id":"C-8c19a89c09e4","action":"reject","required_evidence":["P-de75529b68cd","D-ac636be4014c","D-3758dd618087"],"rationale":"The active_machines_inspected requirement is violated."}
+{"case_id":"C-8c2150724d7b","action":"approve","required_evidence":["P-895569be740c","D-c95dab2a34a7","D-0e499e44c0fc"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-8e75131d15f0","action":"approve","required_evidence":["P-de75529b68cd","D-e1d4d114c9d7","D-5f8e7e8c1a18"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-8e7bf5eaf741","action":"review","required_evidence":["P-f3360665ab39","D-53bea8ff8e11","D-11cddded0bf7"],"rationale":"The required net_return_kg value is unavailable."}
+{"case_id":"C-91021a451bed","action":"reject","required_evidence":["P-0b1693787c88","D-2b0826b13bfd","D-1acf27bcb745"],"rationale":"The invoice_scope requirement is violated."}
+{"case_id":"C-9218f94c3203","action":"reject","required_evidence":["P-2e50d90a83cc","D-6db96dbb37d4","D-48b0b1b8334b"],"rationale":"The service_designation requirement is violated."}
+{"case_id":"C-934670dbe0ad","action":"reject","required_evidence":["P-0b1693787c88","D-c5de3e8acef2","D-1aa708f6746b"],"rationale":"The invoice_scope requirement is violated."}
+{"case_id":"C-93887fd09536","action":"approve","required_evidence":["P-2e50d90a83cc","D-59ed8cda9686","D-ac6ad3cdbab5"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-94951275ae47","action":"reject","required_evidence":["P-5d9d1d8908a5","D-f4aa8186195a","D-3138a2fdd87f"],"rationale":"The contrast_hundredths requirement is violated."}
+{"case_id":"C-95c9bc055756","action":"review","required_evidence":["P-db7be71a31ce","D-292982c3f97d"],"rationale":"The required examiner_status value is unavailable."}
+{"case_id":"C-95e5bf09ef91","action":"review","required_evidence":["P-2e50d90a83cc","D-a8260f85aa42","D-905d286a3ddc"],"rationale":"The required service_designation value is unavailable."}
+{"case_id":"C-969a1baf2277","action":"review","required_evidence":["P-5d9d1d8908a5","D-f4aa8186195a","D-3138a2fdd87f"],"rationale":"The required contrast_hundredths value is unavailable."}
+{"case_id":"C-96f685979caf","action":"review","required_evidence":["P-0a31f967f878","D-6704b01f2d43"],"rationale":"The required dispatch_basis value is unavailable."}
+{"case_id":"C-97bc18c861d0","action":"review","required_evidence":["P-5d9d1d8908a5","D-25d0a86f7bf0","D-ccaa47561a6d"],"rationale":"The required contrast_hundredths value is unavailable."}
+{"case_id":"C-994d32baed0f","action":"approve","required_evidence":["P-edb54a8a1a20","D-078b1a910599","D-a166308769fa"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-99e45d5f1cb8","action":"review","required_evidence":["P-466088be7d63","D-952afe84cae8"],"rationale":"The required dispatch_basis value is unavailable."}
+{"case_id":"C-9a496a7e01ac","action":"review","required_evidence":["P-2e50d90a83cc","D-4337167d3443"],"rationale":"The required warranty_days_at_intake value is unavailable."}
+{"case_id":"C-9b6b62887f2b","action":"review","required_evidence":["P-466088be7d63","D-9717929a1496"],"rationale":"The required dispatch_basis value is unavailable."}
+{"case_id":"C-9c47e0d06af4","action":"review","required_evidence":["P-4ed7c6cb5644","D-9413b2ce52c5","D-61aa110268f3"],"rationale":"The required service_designation value is unavailable."}
+{"case_id":"C-9c5524c6746b","action":"approve","required_evidence":["P-fa4fee11afd4","D-c97f3cf06a2b","D-84cf9f793d12"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-9ece02680de8","action":"reject","required_evidence":["P-cd612f63d6ad","D-985201c3b3bf","D-69a16a04cbcb"],"rationale":"The active_machines_inspected requirement is violated."}
+{"case_id":"C-a20833515893","action":"approve","required_evidence":["P-dce2b7c256c0","D-8122f1fabf21","D-6ed2c6e397bd"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-a2663342e014","action":"approve","required_evidence":["P-0a31f967f878","D-9d1690b59c94","D-319d8ef7c55c"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-a3fdd19222bd","action":"approve","required_evidence":["P-2e50d90a83cc","D-b232ca124692","D-79b191193d57"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-a57bca9e4384","action":"review","required_evidence":["P-f3360665ab39","D-865210814167","D-e410f6e7b5ed"],"rationale":"The required net_return_kg value is unavailable."}
+{"case_id":"C-a66de45dd27f","action":"review","required_evidence":["P-3ea93b29e9bb","D-13327b61f32a"],"rationale":"The required dispatch_basis value is unavailable."}
+{"case_id":"C-a68773f33784","action":"review","required_evidence":["P-0b1693787c88","D-9a8b87df705f"],"rationale":"The required posted_trip_nights value is unavailable."}
+{"case_id":"C-a6ee6f049720","action":"review","required_evidence":["P-895569be740c","D-45b98b2c0747","D-b54a232fa306"],"rationale":"The required net_return_kg value is unavailable."}
+{"case_id":"C-a74b1c6e6d1f","action":"review","required_evidence":["P-0b1693787c88","D-f310f80743fc"],"rationale":"The required posted_trip_nights value is unavailable."}
+{"case_id":"C-a81e7c1775bc","action":"review","required_evidence":["P-0a31f967f878","D-963f7e427132"],"rationale":"The required dispatch_basis value is unavailable."}
+{"case_id":"C-a94f04b5cdd7","action":"review","required_evidence":["P-de75529b68cd","D-525cdc463bbe"],"rationale":"The required examiner_status value is unavailable."}
+{"case_id":"C-a958bb864b5a","action":"approve","required_evidence":["P-2e50d90a83cc","D-7783c6f0a574","D-5c80d90b1d1a"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-a9ceec1d9353","action":"approve","required_evidence":["P-fa4fee11afd4","D-947d7ae08f1f","D-2d8b55fcc00f"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-aabed825cc91","action":"approve","required_evidence":["P-4ed7c6cb5644","D-ffac02185898","D-f4964f667297"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-abbdfbaf235d","action":"reject","required_evidence":["P-20853a29c804","D-781eb8292fe0"],"rationale":"The posted_trip_nights requirement is violated."}
+{"case_id":"C-abc23d8b6af9","action":"approve","required_evidence":["P-5d9d1d8908a5","D-eba259ae5690","D-942340bc5c47"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-abd6d21ac349","action":"approve","required_evidence":["P-466088be7d63","D-1980c388674d","D-e997721d389c"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-ac1998db6535","action":"review","required_evidence":["P-20853a29c804","D-729b0ed38abe","D-a2c5f2a681cb"],"rationale":"The required invoice_scope value is unavailable."}
+{"case_id":"C-ac34ec0d62d5","action":"reject","required_evidence":["P-db7be71a31ce","D-0dbc8d71724b","D-29c99507c44e"],"rationale":"The active_machines_inspected requirement is violated."}
+{"case_id":"C-ac5ba5635425","action":"approve","required_evidence":["P-895569be740c","D-45b98b2c0747","D-b54a232fa306"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-acfab1daf4fb","action":"review","required_evidence":["P-7c644e9b5da5","D-18831b72a2a7","D-c42a1628c032"],"rationale":"The required service_designation value is unavailable."}
+{"case_id":"C-adee792a52f1","action":"approve","required_evidence":["P-0b1693787c88","D-2b0826b13bfd","D-1acf27bcb745"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-b044793da1a3","action":"reject","required_evidence":["P-5d9d1d8908a5","D-25b00f9b7100"],"rationale":"The site_designation requirement is violated."}
+{"case_id":"C-b0e5f8ce1c65","action":"review","required_evidence":["P-5d9d1d8908a5","D-01ea18d70e1c","D-cfb8fa186ccb"],"rationale":"The required contrast_hundredths value is unavailable."}
+{"case_id":"C-b0f23b674840","action":"reject","required_evidence":["P-20853a29c804","D-91a9978dde1d"],"rationale":"The posted_trip_nights requirement is violated."}
+{"case_id":"C-b0f5520d5198","action":"review","required_evidence":["P-0a31f967f878","D-721df24fb4c2","D-d433ae0c1504"],"rationale":"The required metered_hire_hours value is unavailable."}
+{"case_id":"C-b32813a553ef","action":"approve","required_evidence":["P-5d9d1d8908a5","D-e1b8cad81578","D-3d513f1bec44"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-b576b5b505f3","action":"reject","required_evidence":["P-edb54a8a1a20","D-02c8e2df4592"],"rationale":"The posted_trip_nights requirement is violated."}
+{"case_id":"C-b5fbe89c9a38","action":"reject","required_evidence":["P-895569be740c","D-b0bb9cdaeb60","D-71d821c37bbb"],"rationale":"The net_return_kg requirement is violated."}
+{"case_id":"C-b612cef0d2e2","action":"reject","required_evidence":["P-7c644e9b5da5","D-9fd3d510dfe3","D-3e4da63904ab"],"rationale":"The service_designation requirement is violated."}
+{"case_id":"C-b74f5df88d67","action":"review","required_evidence":["P-466088be7d63","D-1fc3859d9760"],"rationale":"The required dispatch_basis value is unavailable."}
+{"case_id":"C-b861a9ad6eca","action":"review","required_evidence":["P-db7be71a31ce","D-f82b65d3574b","D-a6b1fe55abcd"],"rationale":"The required active_machines_inspected value is unavailable."}
+{"case_id":"C-b8ac3fefc93a","action":"reject","required_evidence":["P-895569be740c","D-d5de98513548"],"rationale":"The collection_permit requirement is violated."}
+{"case_id":"C-b8ac98080ca7","action":"review","required_evidence":["P-de75529b68cd","D-b383f4bfef5c"],"rationale":"The required examiner_status value is unavailable."}
+{"case_id":"C-b98ce92c6073","action":"reject","required_evidence":["P-dce2b7c256c0","D-992b6d8e5822"],"rationale":"The collection_permit requirement is violated."}
+{"case_id":"C-ba2af15ac0a7","action":"review","required_evidence":["P-895569be740c","D-4308d7be2431","D-9ded911d2687"],"rationale":"The required net_return_kg value is unavailable."}
+{"case_id":"C-bb6145481046","action":"approve","required_evidence":["P-f3360665ab39","D-865210814167","D-e410f6e7b5ed"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-bbdd464e5e00","action":"reject","required_evidence":["P-2e50d90a83cc","D-846059634176"],"rationale":"The warranty_days_at_intake requirement is violated."}
+{"case_id":"C-bc193cf2cc62","action":"approve","required_evidence":["P-fa4fee11afd4","D-5d0f687a4e33","D-a2cff86ab0d5"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-bcae71315269","action":"review","required_evidence":["P-7c644e9b5da5","D-afc28bc2f8b7","D-a0d2174db538"],"rationale":"The required service_designation value is unavailable."}
+{"case_id":"C-bcf560f9e33a","action":"approve","required_evidence":["P-0b1693787c88","D-591231ff8e23","D-af9b926cf1e5"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-bf8678872c03","action":"review","required_evidence":["P-cd612f63d6ad","D-31ecbcac063f","D-d37f2cdebd9c"],"rationale":"The required active_machines_inspected value is unavailable."}
+{"case_id":"C-c0aaa2c3a8ee","action":"reject","required_evidence":["P-4ed7c6cb5644","D-0c2ddbaad211","D-37c281a94c78"],"rationale":"The service_designation requirement is violated."}
+{"case_id":"C-c13bece36c87","action":"review","required_evidence":["P-466088be7d63","D-9f3e7fa8262b"],"rationale":"The required dispatch_basis value is unavailable."}
+{"case_id":"C-c5783b61ef4b","action":"approve","required_evidence":["P-f3360665ab39","D-d5d56fea7f73","D-1d883feaefef"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-c6021b2f0da9","action":"review","required_evidence":["P-5d9d1d8908a5","D-3c926253e744"],"rationale":"The required site_designation value is unavailable."}
+{"case_id":"C-ca3915a249f6","action":"reject","required_evidence":["P-fa4fee11afd4","D-1c13dda5f836","D-f8d40a81a321"],"rationale":"The contrast_hundredths requirement is violated."}
+{"case_id":"C-ca8ee589ddc3","action":"review","required_evidence":["P-0b1693787c88","D-9ae543a1d610","D-9e243de49a44"],"rationale":"The required invoice_scope value is unavailable."}
+{"case_id":"C-cc74f4849e27","action":"approve","required_evidence":["P-895569be740c","D-e383a0794b7d","D-27e469982522"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-cf32f1eed1e6","action":"reject","required_evidence":["P-895569be740c","D-4308d7be2431","D-9ded911d2687"],"rationale":"The net_return_kg requirement is violated."}
+{"case_id":"C-cf7e29479b1f","action":"review","required_evidence":["P-7c644e9b5da5","D-bf577cf315cd","D-2040978ca593"],"rationale":"The required service_designation value is unavailable."}
+{"case_id":"C-d06b3f93ef43","action":"approve","required_evidence":["P-2e50d90a83cc","D-2ac87f5fd587","D-24a80429743e"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-d2c1a038f0cd","action":"review","required_evidence":["P-20853a29c804","D-8e5b127fe98b","D-e71682993364"],"rationale":"The required invoice_scope value is unavailable."}
+{"case_id":"C-d2ddaba6e8b9","action":"review","required_evidence":["P-5d9d1d8908a5","D-25b00f9b7100"],"rationale":"The required site_designation value is unavailable."}
+{"case_id":"C-d33d31da9c95","action":"reject","required_evidence":["P-20853a29c804","D-90fc1125d8f5"],"rationale":"The posted_trip_nights requirement is violated."}
+{"case_id":"C-d39b4c1986fc","action":"review","required_evidence":["P-2e50d90a83cc","D-b232ca124692"],"rationale":"The required warranty_days_at_intake value is unavailable."}
+{"case_id":"C-d577720a5ea8","action":"reject","required_evidence":["P-fa4fee11afd4","D-d82c06f1efa1"],"rationale":"The site_designation requirement is violated."}
+{"case_id":"C-d66aefb93dba","action":"review","required_evidence":["P-de75529b68cd","D-e1d4d114c9d7","D-5f8e7e8c1a18"],"rationale":"The required active_machines_inspected value is unavailable."}
+{"case_id":"C-d82364f88699","action":"approve","required_evidence":["P-0b1693787c88","D-297c94010e7d","D-03aefcbaa34f"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-d8a4e9a0d3e8","action":"reject","required_evidence":["P-0a31f967f878","D-6704b01f2d43"],"rationale":"The dispatch_basis requirement is violated."}
+{"case_id":"C-d8c0981ea83c","action":"reject","required_evidence":["P-0a31f967f878","D-9d1690b59c94","D-319d8ef7c55c"],"rationale":"The metered_hire_hours requirement is violated."}
+{"case_id":"C-dbea9e86af7a","action":"review","required_evidence":["P-edb54a8a1a20","D-855e3d82877b","D-8a4be5d8e448"],"rationale":"The required invoice_scope value is unavailable."}
+{"case_id":"C-dbeec83d417d","action":"review","required_evidence":["P-fa4fee11afd4","D-041bf18ac5c0","D-b78858204087"],"rationale":"The required contrast_hundredths value is unavailable."}
+{"case_id":"C-dc1100c03899","action":"review","required_evidence":["P-7c644e9b5da5","D-00d293dd6aeb"],"rationale":"The required warranty_days_at_intake value is unavailable."}
+{"case_id":"C-dcd2b4cb3451","action":"review","required_evidence":["P-edb54a8a1a20","D-13048031f07f"],"rationale":"The required posted_trip_nights value is unavailable."}
+{"case_id":"C-df6fe064eb3f","action":"review","required_evidence":["P-db7be71a31ce","D-4cf7ce1bf337","D-81d56ecb711e"],"rationale":"The required active_machines_inspected value is unavailable."}
+{"case_id":"C-e0c56c6b9fb2","action":"reject","required_evidence":["P-466088be7d63","D-9717929a1496"],"rationale":"The dispatch_basis requirement is violated."}
+{"case_id":"C-e15a3139af3a","action":"approve","required_evidence":["P-de75529b68cd","D-1fb2331d0d5c","D-31a6837057ed"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-e168890b879a","action":"approve","required_evidence":["P-5d9d1d8908a5","D-01ea18d70e1c","D-cfb8fa186ccb"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-e1af1089f956","action":"approve","required_evidence":["P-7c644e9b5da5","D-9fd3d510dfe3","D-3e4da63904ab"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-e5314c5c1335","action":"reject","required_evidence":["P-0b1693787c88","D-9ae543a1d610","D-9e243de49a44"],"rationale":"The invoice_scope requirement is violated."}
+{"case_id":"C-e5d8d4675adc","action":"approve","required_evidence":["P-2e50d90a83cc","D-a8260f85aa42","D-905d286a3ddc"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-e5e58e828516","action":"approve","required_evidence":["P-7c644e9b5da5","D-bf577cf315cd","D-2040978ca593"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-e8200b0c1b00","action":"reject","required_evidence":["P-f3360665ab39","D-a18248a5077b","D-bf65c335396e"],"rationale":"The net_return_kg requirement is violated."}
+{"case_id":"C-e8e9ddf9fefc","action":"approve","required_evidence":["P-20853a29c804","D-7d5b78c7914f","D-7ad37995e067"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-e9b36a115973","action":"approve","required_evidence":["P-cd612f63d6ad","D-985201c3b3bf","D-69a16a04cbcb"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-e9d7b8c21963","action":"review","required_evidence":["P-4ed7c6cb5644","D-ffac02185898","D-f4964f667297"],"rationale":"The required service_designation value is unavailable."}
+{"case_id":"C-ead95bd2b235","action":"reject","required_evidence":["P-fa4fee11afd4","D-68b6d3339827"],"rationale":"The site_designation requirement is violated."}
+{"case_id":"C-eae96b421a72","action":"review","required_evidence":["P-edb54a8a1a20","D-02c8e2df4592"],"rationale":"The required posted_trip_nights value is unavailable."}
+{"case_id":"C-ecd06b6d12f0","action":"review","required_evidence":["P-cd612f63d6ad","D-7da8671ecfd6","D-8ead5f74b214"],"rationale":"The required active_machines_inspected value is unavailable."}
+{"case_id":"C-ed32079f6806","action":"approve","required_evidence":["P-de75529b68cd","D-ac636be4014c","D-3758dd618087"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-ede4716c9abd","action":"review","required_evidence":["P-0a31f967f878","D-ddc568a1ce5d","D-e705de269045"],"rationale":"The required metered_hire_hours value is unavailable."}
+{"case_id":"C-ee4773003672","action":"approve","required_evidence":["P-20853a29c804","D-7fa55d04e7f4","D-c3e2f1b0be29"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-ee61a029d9b0","action":"approve","required_evidence":["P-20853a29c804","D-781eb8292fe0","D-b1df6c694199"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-eec65052519d","action":"approve","required_evidence":["P-895569be740c","D-b0bb9cdaeb60","D-71d821c37bbb"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-efc3936f78eb","action":"review","required_evidence":["P-5d9d1d8908a5","D-0fcfab42c15b"],"rationale":"The required site_designation value is unavailable."}
+{"case_id":"C-efff9ff4765e","action":"review","required_evidence":["P-cfa6338835bf","D-de561056e420","D-972a3fc6964d"],"rationale":"The required contrast_hundredths value is unavailable."}
+{"case_id":"C-f1c49c40837f","action":"approve","required_evidence":["P-895569be740c","D-dd90b279c67e","D-63f5c8c5db0a"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-f2b077dca118","action":"review","required_evidence":["P-cfa6338835bf","D-3eff3e44e052"],"rationale":"The required site_designation value is unavailable."}
+{"case_id":"C-f37c08a9942a","action":"reject","required_evidence":["P-de75529b68cd","D-45a2e923eab3"],"rationale":"The examiner_status requirement is violated."}
+{"case_id":"C-f41772c8ecc2","action":"reject","required_evidence":["P-2e50d90a83cc","D-4337167d3443"],"rationale":"The warranty_days_at_intake requirement is violated."}
+{"case_id":"C-f44754426494","action":"reject","required_evidence":["P-fa4fee11afd4","D-947d7ae08f1f"],"rationale":"The site_designation requirement is violated."}
+{"case_id":"C-f4e9b6c7bb7c","action":"approve","required_evidence":["P-db7be71a31ce","D-4ca660e07eed","D-be8fb0dc5063"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-f537402d389d","action":"reject","required_evidence":["P-cd612f63d6ad","D-9bdb45d7a1a2"],"rationale":"The examiner_status requirement is violated."}
+{"case_id":"C-f57e25c8659f","action":"approve","required_evidence":["P-cd612f63d6ad","D-1639b950e6c0","D-d22ee07bb2cf"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-f6e17778f5d0","action":"review","required_evidence":["P-de75529b68cd","D-e50a6ebbbfdf","D-e513e5e3c711"],"rationale":"The required active_machines_inspected value is unavailable."}
+{"case_id":"C-f7199b777447","action":"review","required_evidence":["P-5d9d1d8908a5","D-e1b8cad81578"],"rationale":"The required site_designation value is unavailable."}
+{"case_id":"C-f8ccb6dfcf5d","action":"review","required_evidence":["P-466088be7d63","D-6a0fe9c439e9","D-327d80e11552"],"rationale":"The required metered_hire_hours value is unavailable."}
+{"case_id":"C-f94bcc293f03","action":"reject","required_evidence":["P-0a31f967f878","D-721df24fb4c2","D-d433ae0c1504"],"rationale":"The metered_hire_hours requirement is violated."}
+{"case_id":"C-f94dcab4cbb6","action":"approve","required_evidence":["P-f3360665ab39","D-b17d3fa081c1","D-4c3888536902"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-fae27b3db334","action":"review","required_evidence":["P-f3360665ab39","D-0523c72ece07","D-270a909d6d8e"],"rationale":"The required net_return_kg value is unavailable."}
+{"case_id":"C-fc33240efa9d","action":"review","required_evidence":["P-fa4fee11afd4","D-f7f88f465f32"],"rationale":"The required site_designation value is unavailable."}
+{"case_id":"C-fc8779bf747c","action":"reject","required_evidence":["P-fa4fee11afd4","D-041bf18ac5c0","D-b78858204087"],"rationale":"The contrast_hundredths requirement is violated."}
+{"case_id":"C-fdcc201a1206","action":"approve","required_evidence":["P-edb54a8a1a20","D-13048031f07f","D-39a9d7777b9c"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-fe17e83c4cc3","action":"review","required_evidence":["P-2e50d90a83cc","D-e8fb3e2e272e"],"rationale":"The required warranty_days_at_intake value is unavailable."}
+{"case_id":"C-feef476ca0d3","action":"approve","required_evidence":["P-fa4fee11afd4","D-68b6d3339827","D-1ffe2e653c4f"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-ffb49c73f011","action":"approve","required_evidence":["P-5d9d1d8908a5","D-9682c05de4a3","D-3cd1ecb2455f"],"rationale":"Both ordered requirements are satisfied."}

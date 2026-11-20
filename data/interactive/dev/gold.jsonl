@@ -1,0 +1,144 @@
+{"case_id":"C-01395e7a94c5","action":"approve","required_evidence":["P-71b48fe7bc87","D-dd6ddc0849c4","D-53c2b12ad694"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-01ba09c99ef6","action":"reject","required_evidence":["P-6b7e7c64b676","D-f7fcc07e908b"],"rationale":"The peak_tenths_celsius requirement is violated."}
+{"case_id":"C-024032c39d7e","action":"reject","required_evidence":["P-71b48fe7bc87","D-623cacf53d19","D-efc97f75d848"],"rationale":"The interval_days requirement is violated."}
+{"case_id":"C-03f7250e453b","action":"review","required_evidence":["P-6b7e7c64b676","D-f7fcc07e908b"],"rationale":"The required peak_tenths_celsius value is unavailable."}
+{"case_id":"C-0478cc250926","action":"reject","required_evidence":["P-3f29317349c5","D-25164b4c5e19","D-46710576dcd8"],"rationale":"The interval_days requirement is violated."}
+{"case_id":"C-05acadf5e14c","action":"review","required_evidence":["P-6b7e7c64b676","D-77ac336155bc"],"rationale":"The required peak_tenths_celsius value is unavailable."}
+{"case_id":"C-08fe8838fdb7","action":"review","required_evidence":["P-092c7c564c53","D-dc163d473555"],"rationale":"The required standard_class value is unavailable."}
+{"case_id":"C-0940e75b0c5a","action":"review","required_evidence":["P-6b7e7c64b676","D-f1aee03a9b4e","D-d03ca158443c"],"rationale":"The required stock_class value is unavailable."}
+{"case_id":"C-0d9de428bf00","action":"review","required_evidence":["P-71b48fe7bc87","D-e004da7d86f7","D-ff2c88742488"],"rationale":"The required interval_days value is unavailable."}
+{"case_id":"C-11613420a083","action":"approve","required_evidence":["P-71b48fe7bc87","D-623cacf53d19","D-efc97f75d848"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-11f2ad57564a","action":"approve","required_evidence":["P-edf46cd7b29e","D-39ca555da5c2","D-2d1210ebafff"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-14ace51f9161","action":"reject","required_evidence":["P-6b7e7c64b676","D-669aca4cfbda"],"rationale":"The peak_tenths_celsius requirement is violated."}
+{"case_id":"C-15ee8ff4fcfa","action":"approve","required_evidence":["P-9a73d18b073e","D-f4b3790e702a","D-3bdf218bdce8"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-1b2de9d1b383","action":"reject","required_evidence":["P-092c7c564c53","D-4ce6847e8dd4","D-2690674b74b5"],"rationale":"The interval_days requirement is violated."}
+{"case_id":"C-1c3e3b05cb10","action":"reject","required_evidence":["P-092c7c564c53","D-9ac398bc2b0f"],"rationale":"The standard_class requirement is violated."}
+{"case_id":"C-1d9c3aec6cf3","action":"approve","required_evidence":["P-6b7e7c64b676","D-596f1863a77c","D-a313777f6c74"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-1da709866586","action":"review","required_evidence":["P-3f29317349c5","D-1b12b15f9b18","D-ce0d6a5564db"],"rationale":"The required interval_days value is unavailable."}
+{"case_id":"C-1e84f805ce3b","action":"approve","required_evidence":["P-092c7c564c53","D-93640ea98d7d","D-cca14b06597a"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-1ed57680988c","action":"reject","required_evidence":["P-6b7e7c64b676","D-5186e61bf96d"],"rationale":"The peak_tenths_celsius requirement is violated."}
+{"case_id":"C-2063745d7956","action":"reject","required_evidence":["P-3f29317349c5","D-f0d13ba30325","D-8351cb666fa9"],"rationale":"The interval_days requirement is violated."}
+{"case_id":"C-20c395a14664","action":"reject","required_evidence":["P-6b7e7c64b676","D-f1aee03a9b4e","D-d03ca158443c"],"rationale":"The stock_class requirement is violated."}
+{"case_id":"C-24541bb19d9b","action":"reject","required_evidence":["P-6b7e7c64b676","D-dae5e621855f","D-f5883e8cf6e1"],"rationale":"The stock_class requirement is violated."}
+{"case_id":"C-24866f8fd437","action":"reject","required_evidence":["P-71b48fe7bc87","D-0cc06af07dc2"],"rationale":"The standard_class requirement is violated."}
+{"case_id":"C-2a9b45b99730","action":"reject","required_evidence":["P-edf46cd7b29e","D-f46f6a6cdea9"],"rationale":"The interpreted_minutes requirement is violated."}
+{"case_id":"C-2efb052aa0fc","action":"approve","required_evidence":["P-ddc100cf412c","D-3b794954ab40","D-4edcf0106743"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-3049b9441246","action":"reject","required_evidence":["P-edf46cd7b29e","D-a8412674958e","D-31ac2b38fa75"],"rationale":"The consent_form requirement is violated."}
+{"case_id":"C-3463decb371f","action":"approve","required_evidence":["P-edf46cd7b29e","D-7496c120cdaa","D-a7084f3e89d9"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-352663df70ea","action":"approve","required_evidence":["P-71b48fe7bc87","D-af550d0cbb06","D-075800a4af54"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-367929465aff","action":"review","required_evidence":["P-71b48fe7bc87","D-46f475921b50"],"rationale":"The required standard_class value is unavailable."}
+{"case_id":"C-3708c62ee3ae","action":"review","required_evidence":["P-6b7e7c64b676","D-669aca4cfbda"],"rationale":"The required peak_tenths_celsius value is unavailable."}
+{"case_id":"C-38c7a261465b","action":"review","required_evidence":["P-092c7c564c53","D-91d43a38bb2c"],"rationale":"The required standard_class value is unavailable."}
+{"case_id":"C-3a2701829d96","action":"approve","required_evidence":["P-edf46cd7b29e","D-6fcb7831a16a","D-a44c0986f019"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-3b7faafca4cd","action":"reject","required_evidence":["P-e7c95206faa0","D-0c9bdd216eec","D-a3d8a9529111"],"rationale":"The consent_form requirement is violated."}
+{"case_id":"C-3ca024ee05f4","action":"review","required_evidence":["P-e7c95206faa0","D-0c9bdd216eec","D-a3d8a9529111"],"rationale":"The required consent_form value is unavailable."}
+{"case_id":"C-4270401063d9","action":"approve","required_evidence":["P-e7c95206faa0","D-312aee58f035","D-0cddc5693fcd"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-42ce7c671d22","action":"reject","required_evidence":["P-6b7e7c64b676","D-77ac336155bc"],"rationale":"The peak_tenths_celsius requirement is violated."}
+{"case_id":"C-446ee740c1fb","action":"approve","required_evidence":["P-9a73d18b073e","D-b63e9bf09479","D-e150144928fb"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-45c2a3bfe05e","action":"approve","required_evidence":["P-9a73d18b073e","D-2d92467fe4ff","D-150688cb1050"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-4741628da0b0","action":"reject","required_evidence":["P-edf46cd7b29e","D-a540a082fc4e"],"rationale":"The interpreted_minutes requirement is violated."}
+{"case_id":"C-4794daa2b092","action":"review","required_evidence":["P-9a73d18b073e","D-2d92467fe4ff"],"rationale":"The required interpreted_minutes value is unavailable."}
+{"case_id":"C-499eef5bcd3c","action":"reject","required_evidence":["P-092c7c564c53","D-dc163d473555"],"rationale":"The standard_class requirement is violated."}
+{"case_id":"C-4b17c5e40f9e","action":"reject","required_evidence":["P-3802947ac6f2","D-6c41bd97e04f","D-fbfd33ac24f6"],"rationale":"The stock_class requirement is violated."}
+{"case_id":"C-4b4d959c8963","action":"review","required_evidence":["P-6b7e7c64b676","D-7f6ce2a41dd7","D-dc1628052abe"],"rationale":"The required stock_class value is unavailable."}
+{"case_id":"C-4cabe56b7a58","action":"reject","required_evidence":["P-ddc100cf412c","D-3b794954ab40"],"rationale":"The peak_tenths_celsius requirement is violated."}
+{"case_id":"C-4ccf9a5ed23e","action":"reject","required_evidence":["P-e7c95206faa0","D-f6354c96a3e0","D-0ca7835dd9a4"],"rationale":"The consent_form requirement is violated."}
+{"case_id":"C-4cffe3e6177d","action":"reject","required_evidence":["P-3802947ac6f2","D-af27d65dbd87"],"rationale":"The peak_tenths_celsius requirement is violated."}
+{"case_id":"C-4eadf2552723","action":"review","required_evidence":["P-edf46cd7b29e","D-39ca555da5c2","D-2d1210ebafff"],"rationale":"The required consent_form value is unavailable."}
+{"case_id":"C-53c0b4b20fcb","action":"reject","required_evidence":["P-6b7e7c64b676","D-a9920e823072","D-023b3f61ac68"],"rationale":"The stock_class requirement is violated."}
+{"case_id":"C-5403852c1b9c","action":"approve","required_evidence":["P-9a73d18b073e","D-31e7cf69132a","D-54617560580f"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-56338fa51b84","action":"review","required_evidence":["P-edf46cd7b29e","D-a8412674958e","D-31ac2b38fa75"],"rationale":"The required consent_form value is unavailable."}
+{"case_id":"C-57b994b40063","action":"reject","required_evidence":["P-e7c95206faa0","D-312aee58f035"],"rationale":"The interpreted_minutes requirement is violated."}
+{"case_id":"C-58820ca69506","action":"approve","required_evidence":["P-9a73d18b073e","D-60cffc7b748f","D-f2fbb20658e4"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-588c0866145b","action":"approve","required_evidence":["P-71b48fe7bc87","D-b62f1aab28fb","D-508edde89f0b"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-59aff42fa50c","action":"review","required_evidence":["P-edf46cd7b29e","D-f4ec0c96394d","D-7190c1f00323"],"rationale":"The required consent_form value is unavailable."}
+{"case_id":"C-5b43a53df0ee","action":"approve","required_evidence":["P-71b48fe7bc87","D-15ff79e94b3f","D-46e49fe8c533"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-5bcd5f418c16","action":"reject","required_evidence":["P-ddc100cf412c","D-c48601c98300"],"rationale":"The peak_tenths_celsius requirement is violated."}
+{"case_id":"C-5ed333ca2a8c","action":"review","required_evidence":["P-3802947ac6f2","D-802d238b3adf"],"rationale":"The required peak_tenths_celsius value is unavailable."}
+{"case_id":"C-5f7cfdf22b26","action":"reject","required_evidence":["P-6b7e7c64b676","D-fd2a405ad4fe","D-0ab86179d14c"],"rationale":"The stock_class requirement is violated."}
+{"case_id":"C-6280bdea6850","action":"reject","required_evidence":["P-e7c95206faa0","D-c8c5630ce780"],"rationale":"The interpreted_minutes requirement is violated."}
+{"case_id":"C-62be77302d9d","action":"reject","required_evidence":["P-e7c95206faa0","D-01645342966f"],"rationale":"The interpreted_minutes requirement is violated."}
+{"case_id":"C-632cce48d847","action":"review","required_evidence":["P-edf46cd7b29e","D-6fcb7831a16a"],"rationale":"The required interpreted_minutes value is unavailable."}
+{"case_id":"C-683b5a5bd18a","action":"approve","required_evidence":["P-71b48fe7bc87","D-46f475921b50","D-5fc8810903a4"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-6975459c101f","action":"approve","required_evidence":["P-71b48fe7bc87","D-e004da7d86f7","D-ff2c88742488"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-69b255e973cc","action":"reject","required_evidence":["P-edf46cd7b29e","D-7496c120cdaa"],"rationale":"The interpreted_minutes requirement is violated."}
+{"case_id":"C-6b2eb1f39432","action":"reject","required_evidence":["P-e7c95206faa0","D-f27898a589e9","D-1bf10171bdd5"],"rationale":"The consent_form requirement is violated."}
+{"case_id":"C-6dd0a538c185","action":"approve","required_evidence":["P-092c7c564c53","D-91d43a38bb2c","D-814b4e4d8304"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-702d592afaba","action":"review","required_evidence":["P-092c7c564c53","D-82131b338951","D-28f72824ca4d"],"rationale":"The required interval_days value is unavailable."}
+{"case_id":"C-714a4f5d1c81","action":"review","required_evidence":["P-3f29317349c5","D-da428faaf7fa","D-cfbc30fdbeb0"],"rationale":"The required interval_days value is unavailable."}
+{"case_id":"C-72363f3425c1","action":"approve","required_evidence":["P-ddc100cf412c","D-8d29419eaf39","D-8bf8e2314dbf"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-737fbc2258ac","action":"approve","required_evidence":["P-3802947ac6f2","D-5e76d116cf3d","D-0578695ac9f5"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-75215fbcab9e","action":"approve","required_evidence":["P-edf46cd7b29e","D-f4ec0c96394d","D-7190c1f00323"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-75dd2aaf77f9","action":"approve","required_evidence":["P-e7c95206faa0","D-f6354c96a3e0","D-0ca7835dd9a4"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-761f8b7c7069","action":"approve","required_evidence":["P-6b7e7c64b676","D-60c571a35ffb","D-5890733bfba2"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-79546d799555","action":"review","required_evidence":["P-092c7c564c53","D-9ac398bc2b0f"],"rationale":"The required standard_class value is unavailable."}
+{"case_id":"C-79e18dc4a40d","action":"reject","required_evidence":["P-71b48fe7bc87","D-c5690e05582f","D-ea2f27c47655"],"rationale":"The interval_days requirement is violated."}
+{"case_id":"C-7b6c000f4226","action":"review","required_evidence":["P-6b7e7c64b676","D-a9920e823072","D-023b3f61ac68"],"rationale":"The required stock_class value is unavailable."}
+{"case_id":"C-7cba53dcfe39","action":"reject","required_evidence":["P-71b48fe7bc87","D-0642fc020242"],"rationale":"The standard_class requirement is violated."}
+{"case_id":"C-816b2eba82b9","action":"review","required_evidence":["P-ddc100cf412c","D-d42dcad1fb91"],"rationale":"The required peak_tenths_celsius value is unavailable."}
+{"case_id":"C-82a8af3daa69","action":"reject","required_evidence":["P-9a73d18b073e","D-31e7cf69132a","D-54617560580f"],"rationale":"The consent_form requirement is violated."}
+{"case_id":"C-8afe0251261e","action":"approve","required_evidence":["P-3802947ac6f2","D-af27d65dbd87","D-a82e76353e31"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-8bdfa1fcb9c9","action":"reject","required_evidence":["P-9a73d18b073e","D-d41416a804c7"],"rationale":"The interpreted_minutes requirement is violated."}
+{"case_id":"C-8f9fbdff5256","action":"reject","required_evidence":["P-3f29317349c5","D-07105a65b744"],"rationale":"The standard_class requirement is violated."}
+{"case_id":"C-8fbb1158fb2c","action":"review","required_evidence":["P-e7c95206faa0","D-c8c5630ce780"],"rationale":"The required interpreted_minutes value is unavailable."}
+{"case_id":"C-9069818d3a0d","action":"review","required_evidence":["P-71b48fe7bc87","D-dd6ddc0849c4","D-53c2b12ad694"],"rationale":"The required interval_days value is unavailable."}
+{"case_id":"C-94e60ca36124","action":"review","required_evidence":["P-edf46cd7b29e","D-a540a082fc4e"],"rationale":"The required interpreted_minutes value is unavailable."}
+{"case_id":"C-96c7b9eb8e39","action":"approve","required_evidence":["P-3f29317349c5","D-da428faaf7fa","D-cfbc30fdbeb0"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-9a1396feba54","action":"review","required_evidence":["P-3f29317349c5","D-7d8d06ebda64"],"rationale":"The required standard_class value is unavailable."}
+{"case_id":"C-9cc880bafb82","action":"approve","required_evidence":["P-3f29317349c5","D-f0d13ba30325","D-8351cb666fa9"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-9f36ea6fc948","action":"review","required_evidence":["P-e7c95206faa0","D-f27898a589e9","D-1bf10171bdd5"],"rationale":"The required consent_form value is unavailable."}
+{"case_id":"C-9f7a9c825a7e","action":"review","required_evidence":["P-6b7e7c64b676","D-60c571a35ffb","D-5890733bfba2"],"rationale":"The required stock_class value is unavailable."}
+{"case_id":"C-a086b697878f","action":"review","required_evidence":["P-3802947ac6f2","D-5e76d116cf3d"],"rationale":"The required peak_tenths_celsius value is unavailable."}
+{"case_id":"C-a0e7a2af8121","action":"reject","required_evidence":["P-3f29317349c5","D-9d2604c165d4","D-35c86f6b81af"],"rationale":"The interval_days requirement is violated."}
+{"case_id":"C-a72c45a42ec4","action":"review","required_evidence":["P-71b48fe7bc87","D-af550d0cbb06"],"rationale":"The required standard_class value is unavailable."}
+{"case_id":"C-a91c0a2cbb65","action":"reject","required_evidence":["P-092c7c564c53","D-93640ea98d7d"],"rationale":"The standard_class requirement is violated."}
+{"case_id":"C-a99608a6c0a6","action":"reject","required_evidence":["P-092c7c564c53","D-82131b338951","D-28f72824ca4d"],"rationale":"The interval_days requirement is violated."}
+{"case_id":"C-aab217167234","action":"reject","required_evidence":["P-9a73d18b073e","D-545002fa4776","D-436efe6a681b"],"rationale":"The consent_form requirement is violated."}
+{"case_id":"C-aae3de47cb3d","action":"approve","required_evidence":["P-3802947ac6f2","D-f0660974944e","D-658f0418422c"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-adcd09632ca5","action":"review","required_evidence":["P-edf46cd7b29e","D-f9c2a80e0cfd"],"rationale":"The required interpreted_minutes value is unavailable."}
+{"case_id":"C-ae77292ba4da","action":"reject","required_evidence":["P-9a73d18b073e","D-f4b3790e702a"],"rationale":"The interpreted_minutes requirement is violated."}
+{"case_id":"C-b0efb063633c","action":"approve","required_evidence":["P-edf46cd7b29e","D-8582fa8803cb","D-48bb7251ec9b"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-b273983476c1","action":"review","required_evidence":["P-ddc100cf412c","D-c48601c98300"],"rationale":"The required peak_tenths_celsius value is unavailable."}
+{"case_id":"C-b480f0b76eb5","action":"review","required_evidence":["P-3802947ac6f2","D-6c41bd97e04f","D-fbfd33ac24f6"],"rationale":"The required stock_class value is unavailable."}
+{"case_id":"C-b70364898450","action":"review","required_evidence":["P-edf46cd7b29e","D-89a7e4e0ed96","D-26747e8309bb"],"rationale":"The required consent_form value is unavailable."}
+{"case_id":"C-b87b130a8251","action":"approve","required_evidence":["P-6b7e7c64b676","D-5186e61bf96d","D-22723ac3f91e"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-b97475727f6a","action":"approve","required_evidence":["P-71b48fe7bc87","D-0642fc020242","D-993feb08640f"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-b9eae9f96ee7","action":"review","required_evidence":["P-71b48fe7bc87","D-15ff79e94b3f"],"rationale":"The required standard_class value is unavailable."}
+{"case_id":"C-bb720f6590ba","action":"review","required_evidence":["P-3802947ac6f2","D-09d8a01a71b9","D-10ba0b452346"],"rationale":"The required stock_class value is unavailable."}
+{"case_id":"C-bd9b7fc49374","action":"reject","required_evidence":["P-3f29317349c5","D-7d8d06ebda64"],"rationale":"The standard_class requirement is violated."}
+{"case_id":"C-bf3ca72d6301","action":"review","required_evidence":["P-e7c95206faa0","D-01645342966f"],"rationale":"The required interpreted_minutes value is unavailable."}
+{"case_id":"C-c0960be44ec7","action":"reject","required_evidence":["P-092c7c564c53","D-98c7e5667891","D-55b396db3d15"],"rationale":"The interval_days requirement is violated."}
+{"case_id":"C-c15dacf596f7","action":"reject","required_evidence":["P-71b48fe7bc87","D-b62f1aab28fb"],"rationale":"The standard_class requirement is violated."}
+{"case_id":"C-c3ceaceab3b7","action":"review","required_evidence":["P-3f29317349c5","D-07105a65b744"],"rationale":"The required standard_class value is unavailable."}
+{"case_id":"C-c7b18d9bc6b4","action":"approve","required_evidence":["P-3f29317349c5","D-9d2604c165d4","D-35c86f6b81af"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-c92d10dda10e","action":"approve","required_evidence":["P-ddc100cf412c","D-01de3ce81f30","D-14dd5afaddd3"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-cb09570a911a","action":"approve","required_evidence":["P-6b7e7c64b676","D-7f6ce2a41dd7","D-dc1628052abe"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-cd06b95a7839","action":"reject","required_evidence":["P-ddc100cf412c","D-8d29419eaf39"],"rationale":"The peak_tenths_celsius requirement is violated."}
+{"case_id":"C-d3653d26c7e0","action":"reject","required_evidence":["P-9a73d18b073e","D-b63e9bf09479","D-e150144928fb"],"rationale":"The consent_form requirement is violated."}
+{"case_id":"C-d4c079e22fc7","action":"reject","required_evidence":["P-ddc100cf412c","D-01de3ce81f30","D-14dd5afaddd3"],"rationale":"The stock_class requirement is violated."}
+{"case_id":"C-d5571c56cb0a","action":"approve","required_evidence":["P-3f29317349c5","D-1b12b15f9b18","D-ce0d6a5564db"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-d839ccca893f","action":"approve","required_evidence":["P-edf46cd7b29e","D-89a7e4e0ed96","D-26747e8309bb"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-d9c02d48906e","action":"approve","required_evidence":["P-092c7c564c53","D-98c7e5667891","D-55b396db3d15"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-dc23af129d30","action":"review","required_evidence":["P-edf46cd7b29e","D-f46f6a6cdea9"],"rationale":"The required interpreted_minutes value is unavailable."}
+{"case_id":"C-ddd4f85b85b2","action":"review","required_evidence":["P-9a73d18b073e","D-60cffc7b748f"],"rationale":"The required interpreted_minutes value is unavailable."}
+{"case_id":"C-dde75567400a","action":"approve","required_evidence":["P-ddc100cf412c","D-f349908a7043","D-96df359a7250"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-de83b6604506","action":"approve","required_evidence":["P-ddc100cf412c","D-d42dcad1fb91","D-80530fcfba22"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-debdbebbd00f","action":"review","required_evidence":["P-9a73d18b073e","D-545002fa4776","D-436efe6a681b"],"rationale":"The required consent_form value is unavailable."}
+{"case_id":"C-ded9e7ff45d0","action":"reject","required_evidence":["P-9a73d18b073e","D-693a3c05a45f","D-7551f747fe21"],"rationale":"The consent_form requirement is violated."}
+{"case_id":"C-df1ff2209053","action":"reject","required_evidence":["P-3802947ac6f2","D-f0660974944e","D-658f0418422c"],"rationale":"The stock_class requirement is violated."}
+{"case_id":"C-e017be5ba0b3","action":"review","required_evidence":["P-71b48fe7bc87","D-c5690e05582f","D-ea2f27c47655"],"rationale":"The required interval_days value is unavailable."}
+{"case_id":"C-e02d2fbde5c1","action":"approve","required_evidence":["P-edf46cd7b29e","D-f9c2a80e0cfd","D-fc9b86681f0f"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-e16391794c18","action":"review","required_evidence":["P-3f29317349c5","D-25164b4c5e19","D-46710576dcd8"],"rationale":"The required interval_days value is unavailable."}
+{"case_id":"C-e76f49ef1375","action":"approve","required_evidence":["P-6b7e7c64b676","D-fd2a405ad4fe","D-0ab86179d14c"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-e8c94f3b05c1","action":"approve","required_evidence":["P-3802947ac6f2","D-09d8a01a71b9","D-10ba0b452346"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-eca7657bcd48","action":"reject","required_evidence":["P-ddc100cf412c","D-f8896a879c98","D-9be10235d103"],"rationale":"The stock_class requirement is violated."}
+{"case_id":"C-f1aa137e9c18","action":"approve","required_evidence":["P-71b48fe7bc87","D-0cc06af07dc2","D-214e857a004c"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-f2722234995a","action":"approve","required_evidence":["P-3802947ac6f2","D-802d238b3adf","D-1ac4b7453143"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-f3f90257ee6c","action":"review","required_evidence":["P-6b7e7c64b676","D-596f1863a77c","D-a313777f6c74"],"rationale":"The required stock_class value is unavailable."}
+{"case_id":"C-f41626a1fa8b","action":"approve","required_evidence":["P-9a73d18b073e","D-693a3c05a45f","D-7551f747fe21"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-f7314d406872","action":"review","required_evidence":["P-edf46cd7b29e","D-8582fa8803cb","D-48bb7251ec9b"],"rationale":"The required consent_form value is unavailable."}
+{"case_id":"C-f8af99168811","action":"approve","required_evidence":["P-9a73d18b073e","D-d41416a804c7","D-77a79b262686"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-fa8d78180214","action":"review","required_evidence":["P-ddc100cf412c","D-f349908a7043"],"rationale":"The required peak_tenths_celsius value is unavailable."}
+{"case_id":"C-fc1864d22e4c","action":"approve","required_evidence":["P-ddc100cf412c","D-f8896a879c98","D-9be10235d103"],"rationale":"Both ordered requirements are satisfied."}
+{"case_id":"C-fd14ef268aef","action":"review","required_evidence":["P-6b7e7c64b676","D-dae5e621855f","D-f5883e8cf6e1"],"rationale":"The required stock_class value is unavailable."}
+{"case_id":"C-fd208908d8e4","action":"review","required_evidence":["P-092c7c564c53","D-4ce6847e8dd4","D-2690674b74b5"],"rationale":"The required interval_days value is unavailable."}
